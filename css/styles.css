@@ -1,5 +1,4 @@
-@media (max-width:768px){
-   #fb{top:72.2%; left:40%; position:absolute;}body {margin:0px; background:white;}
+body {margin:0px; background:white;}
 
 
 #topbar {width:98%; height:73%; left:1%; background:linear-gradient(white 15%, grey 555%); position:fixed; opacity:1; border-radius:0px 0px 80px 80px; top:70px; border-radius:; display:none; transistion: display 10s linear 0s;}
@@ -50,7 +49,7 @@ h1{ position:fixed; text-align:center; top:15px; left:100px; font-family:san-ser
 #topfloor:hover {background:rgba(0,0,0,.1); opacity:1; }
 #topfloor:hover div {background:white; width:18px; opacity:1;}
 
-#downbar{height:235px; width:100%; background:rgba(0,130,120,.8); position:relative;bottom:-390px; display:none;}
+#downbar{height:235px; width:100%; background:rgba(0,130,120,.8); position:relative; bottom:-390px; display:none;}
 @media(max-width:768px){
     #downbar{height:209px;}
 }
@@ -68,6 +67,8 @@ h1{ position:fixed; text-align:center; top:15px; left:100px; font-family:san-ser
 #wadown{display:none; position:fixed; width:100%; height:4%; background:linear-gradient(50deg, green 1%, white 55%); bottom:.2%;}
 #wadown>h3{position:absolute; bottom:-30%; font-size:12px; left:60px; font-weight:lighter; color:black; letter-spacing:8px;}
 
+@media (max-width:768px){
+   #fb{top:72.2%; left:40%; position:absolute;}
    #ig{top:72.2%; left:48%; position:absolute}
    #wa{top:72.2%; left:56%; position:absolute;}
 
