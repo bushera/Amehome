@@ -54,23 +54,23 @@ h1{ position:fixed; text-align:center; top:15px; left:100px; font-family:san-ser
     #downbar{height:209px;}
 }
 
-#fb{display:none; height:20px; width:20px; position:absolute; top:68%; right:14%; border-radius:0%; background:rgba(0,0,0,0); opacity:.8;}
+#fb{display:none; opacity:1; height:20px; width:20px; position:absolute; top:68%; right:14%; border-radius:0%; background:rgba(0,0,0,0); opacity:.8;}
 #fbdown{display:none; position:fixed; width:100%; height:4%; background:linear-gradient(50deg, blue 1%, white 55%); bottom:.2%;}
 #fbdown>h3{position:absolute; bottom:-30%; font-size:12px; left:60px; font-weight:lighter; color:black; letter-spacing:18px;}
 
 
-#ig{display:none; height:20px; width:20px; position:absolute; top:68%; right:12%; border-radius:0%; background:rgba(0,0,0,0); opacity:.8;}
+#ig{display:none; opacity:1; height:20px; width:20px; position:absolute; top:68%; right:12%; border-radius:0%; background:rgba(0,0,0,0); opacity:.8;}
 #igdown{display:none; position:fixed; width:100%; height:4%; background:linear-gradient(50deg, violet 1%, white 55%); bottom:.2%;}
 #igdown>h3{position:absolute; bottom:-30%; font-size:12px; left:60px; font-weight:lighter; color:black; letter-spacing:18px;}
 
-#wa{display:none; height:20px; width:20px; position:absolute; top:68%; right:10%; border-radius:0%; background:rgba(0,0,0,0); opacity:.8;}
+#wa{display:none; opacity:1; height:20px; width:20px; position:absolute; top:68%; right:10%; border-radius:0%; background:rgba(0,0,0,0); opacity:.8;}
 #wadown{display:none; position:fixed; width:100%; height:4%; background:linear-gradient(50deg, green 1%, white 55%); bottom:.2%;}
 #wadown>h3{position:absolute; bottom:-30%; font-size:12px; left:60px; font-weight:lighter; color:black; letter-spacing:8px;}
 
 @media (max-width:768px){
-   #fb{top:82%; left:40%; position:absolute;}
-   #ig{top:82%; left:48%; position:absolute}
-   #wa{top:82%; left:56%; position:absolute;}
+   #fb{top:82%; left:40%; position:absolute; opacity:0;}
+   #ig{top:82%; left:48%; position:absolute; opacity:0;}
+   #wa{top:82%; left:56%; position:absolute; opacity:0;}
 
 
 }
