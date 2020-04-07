@@ -17,9 +17,9 @@ var prev, next, h1, menu, topfloor,imgbody;
         topfloor.style.width = "38px";
         imgbody.style.display = "none";
         downbar.style.display = "block";
-		fb.style.display = "block";
-		ig.style.display = "block";
-		wa.style.display = "block";
+		fb.style.display = "none";
+		ig.style.display = "none";
+		wa.style.display = "none";
         }
         
         
