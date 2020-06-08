@@ -10,21 +10,23 @@ var prev, next, h1, menu, topfloor,imgbody;
 	  fb = document.getElementById("fb");
 	  ig = document.getElementById("ig");
 	  wa = document.getElementById("wa");
+	  topbar = document.getElementById("topbar");
       
     if (menu.style.display == "none")
     {
         menu.style.display = "block";
-        topfloor.style.width = "38px";
+        topfloor.style.width = "25px";
         imgbody.style.display = "none";
         downbar.style.display = "block";
 		fb.style.display = "block";
 		ig.style.display = "block";
 		wa.style.display = "none";
+		topbar.style.transistion = "fade"
         }
         
         
         else{ menu.style.display = "none";
-              topfloor.style.width ="33px";
+              topfloor.style.width ="18px";
               imgbody.style.display = "block";
               downbar.style.display = "none";  
 			  fb.style.display = "none";
@@ -34,51 +36,6 @@ var prev, next, h1, menu, topfloor,imgbody;
     
    }
    
-   
-  /* var num = 0; 
-   var downbarlowelem;
-   var image = 	["<img src='/storage/emulated/0/Pictures/facebk.jpg'>"  "<img src = '/storage/emulated/0/Pictures/instagm.jpg'>", "<img src = '/storage/emulated/0/Pictures/twitterr.jpg'>", "<img src = '/storage/emulated/0/Pictures/whatsap.jpg'>"];
-   
-   function imgnext(){
-   num++;
- 
-   if(num > (image.length-1)){
-        num = 0;
-        }
-     downbarlowelem.style.opacity = 0;
-      
-      setTimeout('imgslide()', 500);
+   function change(){
+	document.location.href="http://amehegwuh.netlify.com";
    }
-   
-   function imgslide(){
-   downbarlowelem.innerHTML = image[num];
-   downbarlowelem.style.opacity = 1;
-   
-   setTimeout('imgnext()', 2000);
-   
-   }
-   
-    $(function(){
-  $("#fb").click(function(){
-  $("#fbdown").toggle(1300);
-  $("#igdown").css("display","none");
-  $("#wadown").css("display","none");
-  }); 
-  
-  $("#ig").click(function(){
-  $("#igdown").toggle(1300);
-  $("#fbdown").css("display","none");
-  $("#wadown").css("display","none")
-  }); 
-  
-  $("#wa").click(function(){
-  $("#wadown").toggle(1300);
-  $("#fbdown").css("display","none");
-  $("#igdown").css("display","none")
-  });  
-  
-  })*/
-   
-   
-   
-   
