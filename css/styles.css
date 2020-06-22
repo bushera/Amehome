@@ -1,4 +1,4 @@
-body {margin:0px; background:white;}
+body {margin:0px;}
 
 #topbar {width:98%; height:73%; top:16.5%; left:1%; background:linear-gradient(white 50%, grey 555%); position:fixed; opacity:1; border-radius:0px 0px 80px 80px;  display:none;}
 #topbar-img{ position:fixed; top:85px; right:8px; display:block; height:53%; width:25%; border:2px double grey; border-radius:50%;}
