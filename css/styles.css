@@ -50,7 +50,7 @@ h1{ position:fixed; text-align:center; top:5%; left:10%; font-family:san-serif; 
 #wadown>h3{position:absolute; bottom:-30%; font-size:12px; left:60px; font-weight:lighter; color:black; letter-spacing:8px;}
 
 #socialslide{position:absolute; width:100%; height:90%; bottom:0%; background:rgba(0,130,120,1); opacity:.8; display:none;}
-#socialslide>#slideimage{position:fixed; height:0%; width:100%; bottom:20.3%; left:0%; }
+#socialslide>#slideimage{position:fixed; height:0%; width:100%; bottom:19.8%; left:0%; }
 
 
 @media only screen and (min-width:768px){
