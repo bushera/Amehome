@@ -50,7 +50,7 @@ h1{ position:fixed; text-align:center; top:5%; left:10%; font-family:san-serif; 
 #wadown>h3{position:absolute; bottom:-30%; font-size:12px; left:60px; font-weight:lighter; color:black; letter-spacing:8px;}
 
 #socialslide{position:absolute; width:100%; height:90%; bottom:0%; background:rgba(0,130,120,1); opacity:.8; display:none;}
-#socialslide>#slideimage{position:fixed; height:0%; width:100%; bottom:19.8%; left:0%; }
+#socialslide>#slideimage{position:fixed; height:0%; width:100%; bottom:17.5%; left:0%; }
 
 
 @media only screen and (min-width:768px){
@@ -109,7 +109,7 @@ h1{top:3%; left:30%;}
 #newsletter:hover{letter-spacing:10px; font-size:18px; opacity:1;}
 #mail{position:absolute; top:59%; left:70%; display:none;}
 #email-sub{position:fixed; top:78.5%; left:10%; font-size:13px; font-weight:normal;  width:80%; height:4.5%; letter-spacing:3px; text-align:center;}
-#btn-sub{position:fixed; top:83%; left:10%; font-weight:bold; opacity:1; background:teal; color:white; width:80%; height:6%;}
+#btn-sub{position:fixed; top:83%; left:10%; font-weight:bold; opacity:1; background:rgba(170,0,0,1); color:white; width:80%; height:6%;}
 #email-sub1{display:none;}
 #btn-sub1{display:none;}
 }
