@@ -72,7 +72,7 @@ h1{ position:fixed; text-align:center; top:5%; left:10%; font-family:san-serif; 
 
 @media only screen and (max-width:768px){
 #topbar{width:100%; height:73%; top:17%; border-radius:0px; left:0px; background:linear-gradient(white 15%, grey 555%)}
-#topbar>img{width:25%; height:20%; right:6%; top:20%;}
+#topbar>img{width:25%; height:20%; right:6%; top:130px;}
 @keyframes back-change{
 from{background:background:linear-gradient(white 15%, grey 555%);}
 to{background:teal;}
