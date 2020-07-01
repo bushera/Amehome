@@ -21,7 +21,6 @@ var prev, next, h1, menu, topfloor,imgbody;
 		fb.style.display = "block";
 		ig.style.display = "block";
 		wa.style.display = "none";
-		topbar.style.transistion = "fade"
         }
         
         
