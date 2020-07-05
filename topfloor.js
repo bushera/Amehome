@@ -15,7 +15,6 @@ var prev, next, h1, menu, topfloor,imgbody;
     if (menu.style.display == "none")
     {
         menu.style.display = "block";
-        topfloor.style.width = "25px";
         imgbody.style.display = "none";
         downbar.style.display = "block";
 		fb.style.display = "block";
@@ -24,8 +23,7 @@ var prev, next, h1, menu, topfloor,imgbody;
         }
         
         
-        else{ menu.style.display = "none";
-              topfloor.style.width ="18px";
+        else{ menu.style.display = "none";           
               imgbody.style.display = "block";
               downbar.style.display = "none";  
 			  fb.style.display = "none";
@@ -36,5 +34,5 @@ var prev, next, h1, menu, topfloor,imgbody;
    }
    
    function change(){
-	document.location.href="http://amehegwuh.netlify.com";
+	document.location.href="http://facebook.com";
    }

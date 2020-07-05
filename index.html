@@ -75,20 +75,30 @@
 	  </div>
 	  
 		
-		<div class="uk-inline">
-			<a id="newsletter" href="#subscribe" uk-toggle>news letter</a>
+		<div id="subscribe" uk-modal>
+			<div id="newsletter-form" ></div>
 			
-			<div id="subscribe" uk-drop="mode:click; animation:uk-animation-fade; duration:1800;">
-			<form>
+			
+			<div id="newsletter-modal" class="uk-modal-dialog">
+			
+			<a id="recent" href="#" ><span class="uk-icon-link" style="color:black"  uk-icon="icon:history; ratio:.9;"></a>
+			
+			
+			<a href="#" id="cancel" class="uk-button uk-modal-close" style="color:red;" uk-close></a>
+		
+			
+			<form id="form-modal"  name="subscribe" data-netlify="true" method="POST">
 			<input class="uk-input" id="email-sub" type="email" placeholder="Your email.com">
 			<button class="uk-input" id="btn-sub" type="submit"> subscribe </button>
 			</form>
+			
+				<img data-src="/images/news-img.jpg" uk-img>
 			</div>
 			
-	
-		</div>
+			</div>
 			
-		<form>
+			
+		<form  name="subscribe" data-netlify="true">
 			<input class="uk-input" id="email-sub1" type="email" placeholder="Your email.com">
 			<button class="uk-input" id="btn-sub1" type="submit"> subscribe </button>
 		</form>
@@ -101,6 +111,7 @@
       <a id="works" href="#" >works</a><br>
       <a id="contact" href="#" >contact</a><br>
       <a id="bio" href="#" >bio</a><br>
+	  <a id="newsletter" href="#subscribe" uk-toggle>news letter</a></br>
      </div>
  </div>
  </div>
