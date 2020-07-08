@@ -1,7 +1,7 @@
 body {margin:0px;}
 
 #topbar {width:98%; height:73%; top:16.5%; left:1%; background:linear-gradient(white 50%, grey 555%); position:fixed; opacity:1; border-radius:0px 0px 80px 80px;  display:none;}
-#topbar-img{ position:fixed; top:85px; right:8px; display:block; height:53%; width:25%; border:2px double teal; border-radius:50%;}
+#topbar-img{ position:fixed; top:85px; right:8px; display:block; height:53%; width:25%; border:2px double white; border-radius:50%;}
 #topbar:hover {background:}
 
 #img-body{position:absolute; height:68%; top:5%; left:9%; width:62%; animation:scally 7s ease 3s infinite alternate; animation-delay:2s;}
