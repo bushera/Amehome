@@ -33,6 +33,7 @@ var prev, next, h1, menu, topfloor,imgbody;
     
    }
    
+   
    function change(){
-	document.location.href="http://facebook.com";
+	document.location.href="https://amehegwuh.netlify.com";
    }
