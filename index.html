@@ -68,15 +68,12 @@
 
 
  <div id="topbar">
-      <div uk-scrollspy="cls:uk-animation-fade; target:>.holder; delay:120; repeat:true;">
-   
-      <img class="holder" id="topbar-img" data-src="/images/amehface2.jpg" uk-img>
+      <img id="topbar-img" data-src="/images/amehface2.jpg" uk-img>
       
-	  <div class="holder uk-overflow-hidden"> 
-	  <img id="img-body"  data-src="/images/Logo.jpg" uk-img>
+	  <div class="uk-overflow-hidden">
+	  <img id="img-body" data-src="/images/Logo.jpg" class="uk-animation-reverse uk-transform-origin-top-left" uk-scrollspy="cls:uk-animation-kenburns; repeat:infinite" uk-img>
 	  </div>
- </div>
-
+	  
 		
 		<div id="subscribe" uk-modal>
 			<div id="newsletter-form" ></div>
@@ -84,33 +81,33 @@
 			
 			<div id="newsletter-modal" class="uk-modal-dialog">
 			
-			<a id="recent" href="#" ><span class="glyphicon glyphicon-bell" style="color:rgba(0,0,0,.3)"></a>
+			<a id="recent" href="#" ><span class="uk-icon-link" style="color:black"  uk-icon="icon:history; ratio:.9;"></a>
 			
 			
-			<a href="#" id="cancel" class="uk-button uk-modal-close" style="color:rgba(0,0,0,.3);" uk-close></a>
+			<a href="#" id="cancel" class="uk-button uk-modal-close" style="color:red;" uk-close></a>
 		
 			
-			<form action="#" id="form-modal"  name="newsletter subscription" data-netlify="true" method="POST">
-			<div id="sign-in" id="email-sub"><input class="uk-input" id="email-sub"  type="email" placeholder="Your email.com"> <button class="uk-input" id="btn-sub" type="submit"><span style="font-size:22px;" class="glyphicon glyphicon-send"></span></button></div>
-			
+			<form id="form-modal"  name="newsletter subscription" data-netlify="true" method="POST">
+			<input class="uk-input" name="email" id="email-sub" type="email" placeholder="Your email.com">
+			<button class="uk-input" id="btn-sub" type="submit"> subscribe </button>
 			</form>
-			 <div uk-scrollspy="cls:uk-animation-fade; target:>.holder; delay:80; repeat:true;">
-				<img clss="holder" data-src="/images/news-img.jpg" uk-img>
+			
+				<img data-src="/images/news-img.jpg" uk-img>
 			</div>
 			
 			</div>
-			</div>
 			
 			
-		<form action="#" name="newsletter subscription" data-netlify="true">
-			<input class="uk-input" id="email-sub1" type="email" placeholder="Your email.com"><button class="uk-input" id="btn-sub1" type="submit"> subscribe </button></input>
+		<form  name="newsletter subscription" data-netlify="true">
+			<input name="email" class="uk-input" id="email-sub1" type="email" placeholder="Your email.com">
+			<button class="uk-input" id="btn-sub1" type="submit"> subscribe </button>
 		</form>
 	 
 	<a id="mail" href="mailto:ameamehame@gmail.com"><span class="uk-icon-link"  uk-icon="icon:mail; ratio:1.7;"></span></a>
 	
     <div id="toplink">
-      <a id="home" href="#" >home</a><br>
-      <a id="exhibition" href="#" >exhibition</a><br>
+      <a id="home" href="amehegwuh.netlify.app" >home</a><br>
+      <a id="exhibition" href="amestudio.netlify.app" >exhibition</a><br>
       <a id="works" href="#" >works</a><br>
       <a id="contact" href="#" >contact</a><br>
       <a id="bio" href="#" >bio</a><br>
