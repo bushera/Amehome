@@ -112,8 +112,8 @@ h1{top:3%; left:30%;}
 #sign-in{position:absolute; z-index:999;  top:90.5%; left:3%; width:72%; height:6%; background:rgba(0,0,0,.08); border-radius:60px 20px 20px 60px;}
 #email-sub{position:absolute; z-index:999; top:0%; left:15.5%; font-size:13px; font-weight:bold;  width:84.3%; height:100%; letter-spacing:3px; text-align:center; color:rgba(0,0,0,1); background:white; overflow:scroll; border-radius:60px 20px 20px 60px;}
 #btn-sub{position:absolute; z-index:999; top:3%; left:1%; opacity:1; background:transparent; color:teal; border:transparent; width:10%; height:10%;}
-#cancel{position:absolute; z-index:999; top:90.5%; right:1%;}
-#recent{position:absolute; z-index:999; top:91.9%; right:16%; font-size:18px;}
+#cancel{position:absolute; z-index:999; top:89%; right:1%;}
+#recent{position:absolute; z-index:999; top:90.4%; right:16%; font-size:18px;}
 #email-sub1{display:none;}
 #btn-sub1{display:none;}
 }
