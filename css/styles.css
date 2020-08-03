@@ -112,7 +112,7 @@ h1{top:3%; left:30%;}
 #sign-in{position:absolute; top:90.5%; left:3%; width:80%; height:6%; background:rgba(0,0,0,.08); border-radius:60px 20px 20px 60px;}
 #email-sub{position:absolute; top:0%; left:15.5%; font-size:13px; font-weight:bold;  width:84.3%; height:100%; letter-spacing:3px; text-align:center; color:rgba(0,0,0,1); background:white; overflow:scroll; border-radius:60px 20px 20px 60px;}
 #btn-sub{position:absolute; top:3%; left:1%; opacity:1; background:transparent; color:teal; border:transparent; width:10%; height:10%;}
-#cancel{position:absolute; top:90.5%; right:1%;}
+#cancel{position:absolute; top:90.5%; right:0%;}
 #recent{position:absolute; top:91.9%; right:11%; font-size:18px;}
 #email-sub1{display:none;}
 #btn-sub1{display:none;}
