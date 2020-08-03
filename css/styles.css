@@ -11,11 +11,11 @@ body {margin:0px;}
 	}
 
 #toplink{bottom-margin:100px;}
-#home{color:black; font-weight:bold;text-decoration:none; position:fixed; left:15%; top:480px; letter-spacing:3px; font-size:18px; opacity:.3;}
-#bio{color:black; font-weight:bold;text-decoration:none; position:fixed;  left:23%; top:480px; letter-spacing:8px; font-size:18px; opacity:.3;}
-#works{color:black; font-weight:bold;text-decoration:none; position:fixed; left:29%; top:480px; letter-spacing:8px; font-size:18px; opacity:.3;}
-#contact{color:black; font-weight:bold;text-decoration:none; position:fixed; left:39%; top:480px; letter-spacing:8px; font-size:18px; opacity:.3}
-#exhibition{color:black; font-weight:bold;text-decoration:none; position:fixed; left:51%; top:480px; letter-spacing:8px; font-size:18px; opacity:.3}
+#home{color:black; font-weight:bold;text-decoration:none; position:fixed; left:10%; top:77%; letter-spacing:8px; font-size:18px; opacity:.3;}
+#bio{color:black; font-weight:bold;text-decoration:none; position:fixed;  left:18%; top:77%; letter-spacing:8px; font-size:18px; opacity:.3;}
+#works{color:black; font-weight:bold;text-decoration:none; position:fixed; left:24%; top:77%; letter-spacing:8px; font-size:18px; opacity:.3;}
+#contact{color:black; font-weight:bold;text-decoration:none; position:fixed; left:34%; top:77%; letter-spacing:8px; font-size:18px; opacity:.3}
+#exhibition{color:black; font-weight:bold;text-decoration:none; position:fixed; left:46%; top:77%; letter-spacing:8px; font-size:18px; opacity:.3}
 
 #home:hover{opacity:1;}
 #bio:hover{opacity:1}
@@ -72,8 +72,8 @@ h1{ position:fixed; text-align:center; top:5%; left:10%; font-family:san-serif; 
 
 
 @media only screen and (max-width:768px){
-#topbar{width:100%; height:73%; top:17%; border-radius:0px; left:0px; background:linear-gradient(white 15%, grey 555%)}
-#topbar>img{width:30%; height:25%; right:6%; top:20%;}
+#topbar{width:100%; height:73%; top:17%; border-radius:0px; left:0px; background:linear-gradient(white 15%, grey 555%);}
+#topbar-img{width:150px; height:150px; right:6%; top:20%;}
 
 
 #img-body{display:none;}
@@ -106,13 +106,14 @@ h1{top:3%; left:30%;}
 #newsletter{position:fixed; top:330px; left:50px; font-weight:bold; letter-spacing:2px; font-size:13px; color:black; opacity:.3; text-decoration:none;}
 #newsletter:hover{letter-spacing:10px; font-size:18px; opacity:1;}
 #mail{position:absolute; top:59%; left:70%; display:none;}
-#newsletter-modal{position:absolute; height:100%; width:100%; background:white; top:0%; left:0%;}
-#newsletter-modal>img{position:absolute; height:80%; width:100%; display:block; }
+#newsletter-modal{position:absolute; height:100%; width:100%; background:transparent; top:0%; left:0%;}
+#newsletter-modal>img{position:absolute; height:100%; width:100%; display:block; }
 #newsletter-form{position:fixed; background:white; width:100%; height:100%; left:0%; top:0%; display:none; }
-#email-sub{position:fixed; top:85.5%; left:4.5%; font-size:13px; font-weight:normal;  width:65%; height:6%; letter-spacing:3px; text-align:center; color:white; background:black; overflow:scroll;}
-#btn-sub{position:fixed; top:85.5%; right:4.5%; font-weight:bold; opacity:1; background:rgba(170,0,0,1); color:white; width:25%; height:6%; overflow:scroll;}
-#cancel{position:absolute; top:93%; right:0px;}
-#recent{position:absolute; top:94.4%; right:55px;}
+#sign-in{position:absolute; z-index:999;  top:90.5%; left:3%; width:72%; height:6%; background:rgba(0,0,0,.08); border-radius:60px 20px 20px 60px;}
+#email-sub{position:absolute; z-index:999; top:0%; left:15.5%; font-size:13px; font-weight:bold;  width:84.3%; height:100%; letter-spacing:3px; text-align:center; color:rgba(0,0,0,1); background:white; overflow:scroll; border-radius:60px 20px 20px 60px;}
+#btn-sub{position:absolute; z-index:999; top:3%; left:1%; opacity:1; background:transparent; color:teal; border:transparent; width:10%; height:10%;}
+#cancel{position:absolute; z-index:999; top:90.5%; right:1%;}
+#recent{position:absolute; z-index:999; top:91.9%; right:16%; font-size:18px;}
 #email-sub1{display:none;}
 #btn-sub1{display:none;}
 }
