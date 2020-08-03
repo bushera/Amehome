@@ -1,7 +1,7 @@
 body {margin:0px;}
 
 #topbar {width:98%; height:73%; top:16.5%; left:1%; background:linear-gradient(white 50%, grey 555%); position:fixed; opacity:1; border-radius:0px 0px 80px 80px;  display:none;}
-#topbar-img{ position:fixed; top:85px; right:8px; display:block; height:53%; width:25%; border:2px double white; border-radius:50%;}
+#topbar-img{ position:fixed; top:85px; right:8px; display:block; height:53%; width:25%; border-radius:50%;}
 #topbar:hover {background:}
 
 #img-body{position:absolute; height:68%; top:5%; left:9%; width:62%; animation:scally 7s ease 3s infinite alternate; animation-delay:2s;}
@@ -65,7 +65,7 @@ h1{ position:fixed; text-align:center; top:5%; left:10%; font-family:san-serif; 
 #newsletter{display:none;}
 #mail{position:absolute; top:59%; left:70%; display:none;}
 #email-sub1{position:fixed; top:60%; left:20.8%; font-size:13px; font-weight:normal;  width:22%; height:6%; letter-spacing:3px; text-align:center; color:white; background:black; border-radius:40px 0px 0px 40px; font-weight:bold;  animation:scally 7s ease 3s infinite alternate; animation-delay:2s; overflow:scroll;}
-#btn-sub1{position:fixed; top:60%; left:43%; font-weight:bold; opacity:1; background:rgba(170,0,0,1); color:white; width:7%; height:6%; border-radius:0px 40px 40px 0px; text-align:center;  animation:scally 7s ease 3s infinite alternate; animation-delay:2s; overflow:scroll;}
+#btn-sub1{position:fixed; top:60%; left:43%; font-weight:bold; opacity:1; background:rgba(170,0,0,1); color:white; width:7%; height:6%; border-radius:0px 40px 40px 0px; text-align:center;  animation:scally 7s ease 3s infinite alternate; animation-delay:2s;}
 #email-sub{display:none;}
 #btn-sub{display:none;}
 }
