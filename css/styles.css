@@ -106,14 +106,14 @@ h1{top:3%; left:30%;}
 #newsletter{position:fixed; top:330px; left:50px; font-weight:bold; letter-spacing:2px; font-size:13px; color:black; opacity:.3; text-decoration:none;}
 #newsletter:hover{letter-spacing:10px; font-size:18px; opacity:1;}
 #mail{position:absolute; top:59%; left:70%; display:none;}
-#newsletter-modal{position:absolute; height:100%; width:100%; background:url("/images/news-img.jpg"); top:0%; left:0%;}
-#newsletter-modal>img{position:absolute; height:80%; width:100%; display:none; }
+#newsletter-modal{position:absolute; height:100%; width:100%; background:transparent; top:0%; left:0%;}
+#newsletter-modal>img{position:absolute; height:80%; width:100%; display:block; }
 #newsletter-form{position:fixed; background:white; width:100%; height:100%; left:0%; top:0%; display:none; }
 #sign-in{position:absolute; top:90.5%; left:3%; width:80%; height:6%; background:rgba(0,0,0,.08); border-radius:60px 20px 20px 60px;}
-#email-sub{position:absolute; top:0%; left:15.5%; font-size:13px; font-weight:bold;  width:84.3%; height:100%; letter-spacing:3px; text-align:center; color:rgba(0,0,0,1); background:white; overflow:scroll; border-radius:60px 20px 20px 60px;}
+#email-sub{position:absolute; top:0%; left:15.5%; font-size:13px; font-weight:bold;  width:79.3%; height:100%; letter-spacing:3px; text-align:center; color:rgba(0,0,0,1); background:white; overflow:scroll; border-radius:60px 20px 20px 60px;}
 #btn-sub{position:absolute; top:3%; left:1%; opacity:1; background:transparent; color:teal; border:transparent; width:10%; height:10%;}
-#cancel{position:absolute; top:90.5%; right:0%;}
-#recent{position:absolute; top:91.9%; right:11%; font-size:18px;}
+#cancel{position:absolute; top:90.5%; right:1%;}
+#recent{position:absolute; top:91.9%; right:16%; font-size:18px;}
 #email-sub1{display:none;}
 #btn-sub1{display:none;}
 
