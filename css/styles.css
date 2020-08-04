@@ -95,7 +95,7 @@ main{display:none;}
 
 	
 #topbar{width:100%; height:73%; top:17%; border-radius:0px; left:0px; background:linear-gradient(white 15%, grey 555%);}
-#topbar-img{width:150px; height:150px; right:6%; top:20%; display:none;}
+#topbar-img{width:150px; height:150px; right:6%; top:20%; display:block;}
 
 
 #img-body{display:none;}
