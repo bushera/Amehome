@@ -22,11 +22,14 @@ var prev, next, h1, menu, topfloor,imgbody;
 	  ig = document.getElementById("ig");
 	  wa = document.getElementById("wa");
 	  topbar = document.getElementById("topbar");
+	  topbar-img = document.getElementById("topbar-img");
+	 
       
     if (menu.style.display == "none")
     {
         menu.style.display = "block";
         imgbody.style.display = "none";
+		topbar-img.style.display = "block";
         downbar.style.display = "block";
 		fb.style.display = "block";
 		ig.style.display = "block";
@@ -34,8 +37,9 @@ var prev, next, h1, menu, topfloor,imgbody;
         }
         
         
-        else{ menu.style.display = "none";           
+        else{ menu.style.display = "none";  		
               imgbody.style.display = "block";
+			  topbar-img.style.display = "none";
               downbar.style.display = "none";  
 			  fb.style.display = "none";
 		      ig.style.display = "none";
