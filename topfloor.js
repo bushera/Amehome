@@ -2,7 +2,7 @@ $(function(){
 		
 		$("#cancel0").click(function(){
 		$("main").show();
-		$("#preload-page").delay(30).fadeOut(800);
+		$("#preload-page").delay(50).fadeOut(800);
 		});
 		
   
