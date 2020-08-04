@@ -1,3 +1,14 @@
+$(function(){
+		
+		$("#cancel0").click(function(){
+		$("main").show();
+		$("#preload-page").delay(30).fadeOut(800);
+		});
+		
+  
+	});
+
+
 var prev, next, h1, menu, topfloor,imgbody;
     
      
