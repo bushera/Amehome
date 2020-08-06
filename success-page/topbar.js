@@ -1,3 +1,13 @@
-function previous(){
-	history.go(-1);
-}
+$(function(){
+		
+		
+		$("#prev").click(function(){
+			parent.history.back();
+			return false;
+		});
+		
+		
+		
+		
+		
+	});
