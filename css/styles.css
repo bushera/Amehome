@@ -7,7 +7,7 @@ main{display:none;}
 
 
 #topbar {width:98%; height:73%; top:16.5%; left:1%; background:linear-gradient(white 50%, grey 555%); position:fixed; opacity:1; border-radius:0px 0px 80px 80px;  display:none;}
-#topbar-img{ position:fixed; top:5%; right:8px; display:block; height:53%; width:21%; border-radius:50%;}
+#topbar-img{ position:absolute; top:5%; right:8px; display:block; height:53%; width:21%; border-radius:50%;}
 #topbar:hover {background:}
 
 #img-body{position:absolute; height:68%; top:5%; left:9%; width:62%; animation:scally 7s ease 3s infinite alternate; animation-delay:2s;}
@@ -95,7 +95,7 @@ main{display:none;}
 
 	
 #topbar{width:100%; height:73%; top:17%; border-radius:0px; left:0px; background:linear-gradient(white 15%, grey 555%);}
-#topbar-img{width:150px; height:150px; right:6%; top:20%; display:block;}
+#topbar-img{position:absolute; width:150px; height:150px; right:6%; top:20%; display:block;}
 
 
 #img-body{display:none;}
