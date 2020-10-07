@@ -38,13 +38,14 @@ h1{ position:fixed; text-align:center; top:5%; left:10%; font-family:san-serif; 
 #prev:hover {filter:opacity(1); color:white;}
 #next:hover {filter:opacity(1); color:white;}
 
-#topfloor{height:22px;  background:white; border-radius:4px; position:fixed; left:21%; top:12.3%;}
-#topfloor>div {width:22px; height:4px; margin:3px; background:black; opacity:.1; border-radius:4px; transistion:background.8s linear 0s;}
+#topfloor{height:21px; width:21px;  background:teal; border-radius:50%; opacity:.4; position:fixed; filter:grayscale(100);}
+#topfloor>div {width:13px; height:2px;  margin-top:3px; margin-left:3px; background:white; opacity:1; border-radius:4px; transistion:background.8s linear 0s;}
+#topfloor:hover{opacity:.8; filter:grayscale(0);}
 
 #topfloor2{color:black; opacity:.3; position:fixed; display:none;}
 
 
-#downbar{height:235px; width:100%; background:rgba(0,130,120,.8); position:absolute; bottom:0%; display:none;}
+#downbar{height:235px; width:100%; background:rgba(0,0,0,.7); position:absolute; bottom:0%; display:none;}
 
 #fb{position:absolute; top:63.8%; right:12%; color:black; opacity:1; display:none;}
 #fb:hover{opacity:.2;}
@@ -74,12 +75,12 @@ h2{position:absolute; text-align:center; font-size:12px; font-weight:bold; lette
 #sign-in{position:absolute; z-index:999;  top:5.5%; left:25%; width:50%; height:5.2%; background:white; border-radius:60px 20px 20px 60px;}
 #email-sub0{position:absolute; z-index:999; top:0%; left:15.5%; font-size:13px; font-weight:bold;  width:84.3%; height:100%; letter-spacing:3px; text-align:center; color:rgba(0,0,0,1); background:rgba(0,0,0,.1); overflow:scroll; border-radius:60px 20px 20px 60px;}
 #btn-sub0{position:absolute; z-index:999; top:3%; left:1%; opacity:1; background:transparent; color:teal; border:transparent; width:10%; height:10%;}
-#cancel0{position:absolute; z-index:999; top:90.5%; right:1%;}
+#cancel0{position:absolute; top:96.5%; right:1.5%; background:rgba(0,0,0,.7); height:18px; width:43px; border-radius:5px; opacity:1;}
 
 #newsletter{display:none;}
 #mail{position:absolute; top:59%; left:70%; display:none;}
-#email-sub1{position:fixed; top:60%; left:20.8%; font-size:13px; font-weight:normal;  width:22%; height:6%; letter-spacing:3px; text-align:center; color:white; background:black; border-radius:40px 0px 0px 40px; font-weight:bold;  animation:scally 7s ease 3s infinite alternate; animation-delay:2s; overflow:scroll;}
-#btn-sub1{position:fixed; top:60%; left:43%; font-weight:bold; opacity:1; background:rgba(170,0,0,1); color:white; width:7%; height:6%; border-radius:0px 40px 40px 0px; text-align:center;  animation:scally 7s ease 3s infinite alternate; animation-delay:2s;}
+#email-sub1{position:fixed; display:none; top:60%; left:20.8%; font-size:13px; font-weight:normal;  width:22%; height:6%; letter-spacing:3px; text-align:center; color:white; background:black; border-radius:40px 0px 0px 40px; font-weight:bold;  animation:scally 7s ease 3s infinite alternate; animation-delay:2s; overflow:scroll;}
+#btn-sub1{position:fixed; display:none; top:60%; left:43%; font-weight:bold; opacity:1; background:rgba(170,0,0,1); color:white; width:7%; height:6%; border-radius:0px 40px 40px 0px; text-align:center;  animation:scally 7s ease 3s infinite alternate; animation-delay:2s;}
 #email-sub{display:none;}
 #btn-sub{display:none;}
 }
@@ -91,41 +92,58 @@ main{display:none;}
 #preload-page{position:absolute; top:0%; left:0%; width:100%; height:100%; background:linear-gradient(rgba(0,0,0,.7) 13%, white 5%); display:block; z-index:9999; overflow:hidden; }
 #email-sub0{position:absolute; z-index:999; top:0%; left:15.5%; font-size:13px; font-weight:bold;  width:84.3%; height:100%; letter-spacing:3px; text-align:center; color:rgba(0,0,0,1); background:rgba(0,0,0,.1); overflow:scroll; border-radius:60px 20px 20px 60px;}
 #btn-sub0{position:absolute; z-index:999; top:3%; left:1%; opacity:1; background:transparent; color:teal; border:transparent; width:10%; height:10%;}
-#cancel0{position:absolute; z-index:999; top:90.5%; right:1%;}
+#cancel0{position:absolute; top:96.5%; right:1.5%; background:rgba(0,0,0,.7); height:18px; width:43px; border-radius:5px; opacity:1;}
 
 	
-#topbar{width:100%; height:73%; top:17%; border-radius:0px; left:0px; background:linear-gradient(white 15%, grey 555%);}
-#topbar-img{position:absolute; width:150px; height:150px; right:6%; top:8.4%; display:block;}
-
+#topbar{width:98%; height:73%; top:17%; border-radius:0px; left:1%; background:white; border-radius:0px 0px 40px 40px;}
+#topbar-img{width:150px; height:150px; right:6%; top:13.8%;}
 
 #img-body{display:none;}
 
-#home{left:50px; top:130px; font-weight:bold; letter-spacing:2px; font-size:13px;}
+#home{left:50px; top:180px; font-weight:bold; letter-spacing:2px; font-size:13px;}
 #home:hover{letter-spacing:10px; font-size:18px;}
-#bio{left:50px; top:170px; font-weight:bold; letter-spacing:2px; font-size:13px;}
+#bio{left:50px; top:220px; font-weight:bold; letter-spacing:2px; font-size:13px;}
 #bio:hover{letter-spacing:10px; font-size:18px;}
-#works{left:50px; top:210px; font-weight:bold; letter-spacing:2px; font-size:13px;}
+#works{left:50px; top:260px; font-weight:bold; letter-spacing:2px; font-size:13px;}
 #works:hover{letter-spacing:10px; font-size:18px;}
-#contact{left:50px; top:250px; font-weight:bold; letter-spacing:2px; font-size:13px;}
+#contact{left:50px; top:300px; font-weight:bold; letter-spacing:2px; font-size:13px;}
 #contact:hover{letter-spacing:10px; font-size:18px;}
-#exhibition{left:50px; top:290px; font-weight:bold; letter-spacing:2px; font-size:13px;}
+#exhibition{left:50px; top:340px; font-weight:bold; letter-spacing:2px; font-size:13px;}
 #exhibition:hover{letter-spacing:10px; font-size:18px;}
 
-h1{top:3%; left:30%;}
+h1{top:-5%; left:2%; font-size:15px; display:none;}
 
-#topfloor{left:2%; top:3%;}
+#topfloor{position:fixed; top:7%; right:30%;}
+
 #topfloor2{left:6.8%; top:1.3%; display:none;}
 
-#downbar{height:25%;}
+#downbar{height:25%; background:transparent;}
 
 #fb{top:-100%; left:40%; position:absolute; display:none; opacity:0;}
 #ig{top:-100%; left:48%; position:absolute; display:none; opacity:0;}
 #wa{top:82%; left:56%; position:absolute; display:none; opacity:0;}
 
 
-#socialslide{display:block;}
+#video-cover{position:absolute; top:7%; right:70%; background:orange; opacity:.4; width:21px; height:21px; border-radius:50%; filter:grayscale(100);}
+#video-box{position:absolute; top:-3%; left:15%;}
+#video-cover:hover{opacity:.8; filter:grayscale(0);}
+#mail-cover{position:absolute; top:7%; right:40%; background:darkred; opacity:.4; width:21px; height:21px; border-radius:50%; filter:grayscale(100);}
+#mail-social{position:absolute; top:-3%; right:15%;}
+#mail-cover:hover{opacity:.8; filter:grayscale(0);}
+#facebook-cover{position:absolute; top:7%; right:50%; background:darkblue; opacity:.4; width:21px; height:21px; border-radius:50%; filter:grayscale(100);}
+#facebook-social{position:absolute; top:-3%; right:15%;}
+#facebook-cover:hover{opacity:.8; filter:grayscale(0);}
+#instagram-cover{position:absolute; top:7%; right:60%; background:purple; opacity:.4; width:21px; height:21px; border-radius:50%; filter:grayscale(100);}
+#instagram-social{position:absolute; top:-3%; right:15%;}
+#instagram-cover:hover{opacity:.8; filter:grayscale(0);}
+	 
 
-#newsletter{position:fixed; top:330px; left:50px; font-weight:bold; letter-spacing:2px; font-size:13px; color:black; opacity:.3; text-decoration:none;}
+#socialslide{display:none;}
+
+#menubar{position:fixed; width:100%; height:20%; top:80%; background:rgba(0,0,0,.7);}
+
+
+#newsletter{position:fixed; top:330px; left:50px; font-weight:bold; letter-spacing:2px; font-size:13px; color:black; opacity:.3; text-decoration:none; display:none;}
 #newsletter:hover{letter-spacing:10px; font-size:18px; opacity:1;}
 #mail{position:absolute; top:59%; left:70%; display:none;}
 #newsletter-modal{position:absolute; height:100%; width:100%; background:linear-gradient(teal 13%, white 5%); top:0%; left:0%;}

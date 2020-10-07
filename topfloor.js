@@ -9,7 +9,7 @@ $(function(){
 	});
 
 
-var prev, next, h1, menu, topfloor,imgbody;
+var prev, next, h1, menu, topfloor, slider, imgbody;
     
      
       function downmenu(menu){
@@ -22,6 +22,7 @@ var prev, next, h1, menu, topfloor,imgbody;
 	  ig = document.getElementById("ig");
 	  wa = document.getElementById("wa");
 	  topbar = document.getElementById("topbar");
+	  slider = document.getElementById("slider");
 	  
 	 
       
@@ -33,6 +34,7 @@ var prev, next, h1, menu, topfloor,imgbody;
 		fb.style.display = "block";
 		ig.style.display = "block";
 		wa.style.display = "none";
+		slider.style.display = "block";
         }
         
         
@@ -42,6 +44,7 @@ var prev, next, h1, menu, topfloor,imgbody;
 			  fb.style.display = "none";
 		      ig.style.display = "none";
 		      wa.style.display = "none";
+			  slider.style.display = "block";
         }
     
    }
