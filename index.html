@@ -36,16 +36,21 @@
 <div id="preload-page">
 			
 			
-			<h2>SUBSCRIBE</h2>
+			
 			
 			
 			<a href="#" id="cancel0" class="uk-modal-close" style="color:rgba(0,0,0,.3);" > <h3 style="position:absolute; font-size:8.5px; font-weight:bold; color:white; text-align:center; left:10%; top:15%; letter-spacing:1.5px;" >ENTER</h3> </a>
+			<a id="subscribe" href="#"><h3 style="position:relative; font-size:10px; font-weight:bold; color:white; text-align:center; top:10%; letter-spacing:1.5px;" >SUB..</h3> </a>
+     
 		
-			
-			<form action="/success-page" id="form-modal"  name="newsletter subscription" data-netlify="true" method="POST">
-			<div id="sign-in" id="email-sub"><input name="email" class="uk-input" id="email-sub0"  type="email" placeholder="Your email.com" autofocus> <button class="uk-input" id="btn-sub0" type="submit"><span style="font-size:22px;" class="glyphicon glyphicon-send"></span></button></div>
-			
+			<div id="subscribe-cover">
+			<form id="form-modal" action="/success-page"  name="newsletter subscription" data-netlify="true" method="POST">
+			<input class="uk-input" id="email-sub0"  type="email" placeholder="Input your email and get informed">
+			<button class="uk-input" id="btn-sub0" type="submit"><h3 style="position:absolute; font-size:12px; font-weight:bold; color:white; text-align:center; top:20%; left:20%; letter-spacing:5.5px;" >send</h3></button>
+			<a href="#" id="cancel1" uk-close ></a>
 			</form>
+			</div>
+			
 			
 <div uk-scrollspy="cls:uk-animation-fade; target:>.holder; delay:180; repeat:true;">				
 		<div id="slide1" class="holder uk-cover-container">
@@ -82,12 +87,12 @@
 					<li>
 						<div id="news-roll" class="uk-card uk-card-default">
 							<div class="uk-card-media-left uk-cover-container">
-								<img  src="/images/news-img.jpg" uk-cover>
+								<img  src="/images/bushlogo.png" uk-cover>
 								<canvas width="540" height="400"></canvas>
 							</div>
 							<div class="uk-card-body">
-								<h3 class="uk-card-title">news splash</h3>
-								<p>dsdgsdsgfdbf vdfjgfhhg fgfgjhg</p>
+								<h3 class="uk-card-title" style="font-size:17px; font-weight:bold;">Web Developers</h3>
+								<p></p>
 							</div>
 						</div>
 					</li>
