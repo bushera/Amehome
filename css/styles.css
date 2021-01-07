@@ -23,7 +23,6 @@ main{display:none;}
 		from{transform:scale(0.98,0.98);}
 		to{transform:scale(1.1,1.1);}
 	}
-#icon-holder{position:absolute; background:transparent; top:45%; right:11.4%; width:10%; height:30%; border-radius:50%; z-index:9; border-bottom:2px solid teal; border-top:2px solid transparent; border-right:2px solid transparent; border-left:2px solid transparent;}
 #menubar{position:absolute; height:0%; width:100%; top:0%; background:linear-gradient(500deg,#263238 50%,black 150%); left:0%; z-index:999; display:block;}
 #menu-close{position:absolute; z-index:99999; color:white; font-size:7px; font-weight:lighter; left:5%; top:40%; display:none; }
 #menu-trigger{position:absolute; top:88%; right:10%; color:black;}
@@ -55,8 +54,6 @@ main{display:none;}
 
 h1{ position:fixed; text-align:center; top:5%; left:10%; font-family:san-serif; font-weight:lighter; font-size:26px; display:none; }
 
-#slider {position:fixed; width:100%; height:80%; top:20%; border-radius:px; bottom:0px;}
-#slider1 {position:fixed; width:100%; height:82%; top:18%; border-radius:px; bottom:0px; animation:scallly 7s ease 3s infinite alternate; animation-delay:2s;}
 @keyframes scallly{
 		from{transform:scale(1,1);}
 		to{transform:scale(1.15,1.15);}
@@ -278,17 +275,22 @@ h1{ position:fixed; text-align:center; top:5%; left:10%; font-family:san-serif; 
 #fb{display:none;}
 #ig{display:none;}
 
+#offslide-btn{display:none;}
+#offslide{display:none;}
+#showbar{display:none;}
+
 
 #news-page{position:absolute; top:0%; left:0%; width:100%; height:0%; background:white; display:block; z-index:99; overflow:hidden; }
 
-#slide1{position:absolute; left:30%; width:40%; top:18%; background:white; display:none; border-radius:0px 0px 5px 5px; overflow:hidden;}
+#slide1{position:absolute; left:30%; width:40%; top:8%; background:white; display:none; border-radius:0px 0px 5px 5px; overflow:hidden;}
 #news-roll{position:absolute; height:0%; width:50%;  top:0%; left:25%}	
 #sign-in{position:absolute; background:white; z-index:9999;  top:45%; left:45%; width:10%; height:10%;}
 #cancel0{position:absolute; top:90%; right:44%; background:#b0bec5; height:22px; width:5%; border-radius:25px; border:0px solid orange; text-decoration:none; z-index:999;}
 #subscribe{position:absolute; top:90%; left:44%; background:#b0bec5; height:22px; width:5%; border-radius:25px; border:0px solid #00838f; text-decoration:none; z-index:999;}
 #top-btn{position:relative; font-size:10px; font-weight:bold; color:white; text-align:center; top:15%; letter-spacing:1.5px;}
 .uk-card-title{font-size:17px; font-weight:bold;}
-.uk-card-body > p {color:rgba(0,0,0,.25)}
+.uk-card-body > p {color:rgba(0,0,0,.25);}
+.uk-card-body{background: linear-gradient(500deg,#263238 50%,black 150%);}
 #read-more{position:absolute; bottom:2%; right:7%; color:rgba(0,0,0,.7); font-size:11px; text-decoration:none;}
 
 #landscape-text{position:absolute; display:none;}
@@ -432,24 +434,64 @@ main{display:none;}
 #cancel1{position:absolute; top:1%; left:1%; color:#b0bec5;}
 #form-heading{font-size:15px; font-weight:bold; position:absolute; top:-4.5%; left:37%; letter-spacing:2px;  color:#b0bec5;}
 
-#topbar{width:100%; height:100%; top:17%; border-radius:0px; left:0%; background:white; border-radius:0px 0px 40px 40px;}
+#topbar{width:100%; display:none; height:100%; top:17%; border-radius:0px; left:0%; background:red; border-radius:0px 0px 40px 40px;}
 #topbar-img{width:150px; height:150px; right:6%; top:21%; display:none;}
 
 
 #img-body{display:none;}
-#slider1{display:none;}
 
-#home{color:black; text-decoration:none; font-weight:bold; position:absolute; left:39%;  top:10%; letter-spacing:3px; font-size:20px; opacity:.3;}
-#bio{color:black; text-decoration:none; font-weight:bold; position:absolute; left:42%; top:20%; letter-spacing:3px; font-size:20px; opacity:.3;}
-#works{color:black; text-decoration:none; font-weight:bold; position:absolute; left:37.7%; top:30%; letter-spacing:3px; font-size:20px; opacity:.3;}
-#contact{color:black; font-weight:bold;text-decoration:none; position:absolute; left:36%; top:40%; letter-spacing:3px; font-size:20px; opacity:.3}
-#exhibition{color:black; font-weight:bold;text-decoration:none;position:absolute; left:33.3%; top:50%; letter-spacing:3px; font-size:20px; opacity:.3}
-#home:hover{opacity:1; letter-spacing:10px; font-size:23px;}
-#bio:hover{opacity:1; letter-spacing:10px; font-size:23px;}
-#works:hover{opacity:1;}
-#contact:hover{opacity:1; letter-spacing:10px; font-size:23px;}
-#exhibition:hover{opacity:1; letter-spacing:10px; font-size:23px;}
+#slider {position:fixed; width:100%; height:88%; top:12%; border-radius:px; bottom:0px;}
+#slider1 {position:fixed; width:100%; height:88%; top:12%; border-radius:px; bottom:0px;display:none;}
 
+
+	 #showbar{position:fixed; height:12%; width:100%; background:white; }
+	 #video-cover{position:absolute; display:none; top:40%; right:74%; background:orange; opacity:.4; width:24px; height:24px; border-radius:50%; filter:grayscale(100);}
+	 #video-box{position:absolute; top:2%; left:15.11%; font-size:17px; color:white;}
+	 #video-cover:hover{opacity:.8; filter:grayscale(0);}
+	 #mail-cover{position:absolute; display:none; top:40%; right:38%; background:darkred; opacity:.4; width:24px; height:24px; border-radius:50%; filter:grayscale(100);}
+	 #mail{position:absolute; top:4%; right:17%; font-size:15px; color:white;}
+	 #mail-cover:hover{opacity:.8; filter:grayscale(0);}
+	 #facebook-cover{position:absolute; display:none; top:40%; right:50%; background:darkblue; opacity:.4; width:24px; height:24px; border-radius:50%; filter:grayscale(100);}
+	 #facebook-social{position:absolute; top:4%; right:28%; font-size:15px; color:white;}
+	 #facebook-cover:hover{opacity:.8; filter:grayscale(0);}
+	 #instagram-cover{position:absolute; display:none; top:40%; right:62%; background:purple; opacity:.4; width:24px; height:24px; border-radius:50%; filter:grayscale(100);}
+	 #instagram-social{position:absolute; top:2%; right:20%; font-size:17px; color:white;}
+	 #instagram-cover:hover{opacity:.8; filter:grayscale(0);}
+	 #menu-cover{position:absolute; top:40%; left:10%; background:teal; opacity:.4; width:24px; height:24px; border-radius:50%; filter:grayscale(100);}
+	 #offslide-btn{position:absolute; top:2.25%; right:23.5%; font-size:15px; color:white;}
+	 #menu-cover:hover{opacity:.8; filter:grayscale(0);}
+	 #close-trigger{position:absolute;  top:5%; right:7%; background:teal; opacity:.4; width:24px; height:24px; border-radius:50%; filter:grayscale(100); display:none;}
+	 #offslide-trigger{position:absolute; top:2.25%; right:23.5%; font-size:15px; color:white;}
+	 #close-trigger:hover{opacity:.8; filter:grayscale(0);}
+	 
+
+	 #offslide-btn{display:block;}
+	 #offslide{background:white; position:fixed; width:100%; top:0%; height:100%; left:-100%; opacity:1; border-radius:30px 0px 0px 0px; display:block; z-index:9;}
+	 #offslide-h1{position:absolute; font-size:19px; letter-spacing:2px; top:13%; left:-70%; font-family:gothic; font-weight:normal; display:none;}
+	 #offslide>button{position:absolute; top:96%; right:3%; }
+	 #offslide-downbar{position:absolute;  background:#263238; bottom:-108%; height:22%; width:0%; right:0%; border-radius:600px 30px 200px 0px; }
+	 #offslide-email{position:absolute; width:80%; left:10%; height:27%; top:60%; font-size:12px; text-align:center; background:#004d40; color:white; border-radius:600px 30px 200px 0px; opacity:1; border:2px solid transparent;letter-spacing:3px;}
+	 #hr1{position:absolute; display:none; width:100%; height:25%; background:transparent; top:11%; opacity:1; border-top:1px solid rgba(0,0,0,.05);  border-bottom:1px solid rgba(0,0,0,.05);}
+	 #darkmode{position:absolute; top:32%; left:75%; color:black; width:0%; height:0%; }
+	 
+	 
+	 #home{color:black; text-decoration:none; font-weight:bold; position:absolute; left:39%;  top:18%; letter-spacing:3px; font-size:20px; opacity:.3;}
+	 #bio{color:black; text-decoration:none; font-weight:bold; position:absolute; left:42%; top:28%; letter-spacing:3px; font-size:20px; opacity:.3;}
+	 #works{color:black; text-decoration:none; font-weight:bold; position:absolute; left:37.7%; top:38%; letter-spacing:3px; font-size:20px; opacity:.3;}
+	 #down{position:absolute;  height:0%; width:100%; top:43%; left:1.8%; background:white;}
+	 #mob-year{position:absolute; top:10.5%; left:40%; display:none; color:black; text-decoration:none; font-weight:bold; letter-spacing:3px; font-size:13px; opacity:.3;}
+	 #mob-series{position:absolute; top:65%; left:40%; display:none; color:black; text-decoration:none; font-weight:bold; letter-spacing:3px; font-size:13px; opacity:.3;}
+	 #works-span{position:absolute; top:39.8%; right:67%; color:#00695c; font-size:8px; font-weight:bold; display:block;}
+	 #works-span2{position:absolute; top:39.8%; right:67%; color:#00695c; font-size:8px; font-weight:bold; display:none;}
+	 #contact{color:black; font-weight:bold;text-decoration:none; position:absolute; left:36%; top:48%; letter-spacing:3px; font-size:20px; opacity:.3}
+	 #exhibition{color:black; font-weight:bold;text-decoration:none;position:absolute; left:33.3%; top:58%; letter-spacing:3px; font-size:20px; opacity:.3}
+	 #home:hover{opacity:1; letter-spacing:10px; font-size:23px;}
+	 #bio:hover{opacity:1; letter-spacing:10px; font-size:23px;}
+	 #works:hover{opacity:1;}
+	 #contact:hover{opacity:1; letter-spacing:10px; font-size:23px;}
+	 #exhibition:hover{opacity:1; letter-spacing:10px; font-size:23px;}
+
+	
 #news-trigger{position:absolute; top:70%; right:10%; font-size:22px; color:#00695c; opacity:.3;}
 
 
@@ -461,24 +503,13 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 #topfloor2{left:6.8%; top:1.3%; display:none;}
 
-#downbar{height:25%; background:transparent;}
+#downbar{height:25%; background:transparent; display:none;}
 
 #fb{top:-100%; left:40%; position:absolute; display:none; opacity:0;}
 #ig{top:-100%; left:48%; position:absolute; display:none; opacity:0;}
 #wa{top:82%; left:56%; position:absolute; display:none; opacity:0;}
 
-#video-cover{position:absolute; top:7%; right:74%; background:orange; opacity:.4; width:25px; height:25px; border-radius:50%; filter:grayscale(100);}
-#video-box{position:absolute; top:4%; left:12%; color:white; font-size:18px;}
-#video-cover:hover{opacity:.8; filter:grayscale(0);}
-#mail-cover{position:absolute; top:7%; right:38%; background:darkred; opacity:.4; width:25px; height:25px; border-radius:50%; filter:grayscale(100);}
-#mail-social{position:absolute; top:6%; right:19%; color:white; font-size:16px;}
-#mail-cover:hover{opacity:.8; filter:grayscale(0);}
-#facebook-cover{position:absolute; top:7%; right:50%; background:darkblue; opacity:.4; width:25px; height:25px; border-radius:50%; filter:grayscale(100);}
-#facebook-social{position:absolute; top:5%; right:30%; color:white; font-size:15px;}
-#facebook-cover:hover{opacity:.8; filter:grayscale(0);}
-#instagram-cover{position:absolute; top:7%; right:62%; background:purple; opacity:.4; width:25px; height:25px; border-radius:50%; filter:grayscale(100);}
-#instagram-social{position:absolute; top:4%; right:18%; color:white; font-size:18px;}
-#instagram-cover:hover{opacity:.8; filter:grayscale(0);}
+
 	 
 
 #socialslide{display:none;}
@@ -504,7 +535,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 }
 
 
-/*smartphones*/
+/*smartphones*
 @media only screen and (max-width:320px){
 	
 main{display:none;}
@@ -617,7 +648,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 }
 
-/*Galaxy S3*/
+/*Galaxy S3*
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait){
 	
 main{display:none;}
@@ -730,7 +761,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 }
 
-/*Galaxy S4 S5 and Note 3*/
+/*Galaxy S4 S5 and Note 3*
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait){
 	
 main{display:none;}
@@ -845,7 +876,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 }
 
-/*Galaxy fold*/
+/*Galaxy fold*
 @media only screen and (min-device-width: 280px) and (max-device-height: 653px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait){
 	
 main{display:none;}
@@ -964,7 +995,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 /* iphones -------*/
 
-/*iphone 5, 5S, 5C SE*/
+/*iphone 5, 5S, 5C SE*
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait){
 	
 main{display:none;}
@@ -1077,9 +1108,9 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 #email-sub1{display:none;}
 #btn-sub1{display:none;}
 
-}
+}/
 
-/*iphone 6, 7, 8 */
+/*iphone 6, 7, 8 *
 @media only screen and (min-device-width: 375px) and (max-device-height : 667px) and (-webkit-device-pixel-ratio : 2) and (orientation : portrait){
 	
 main{display:none;}
@@ -1192,7 +1223,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 }
 
-/*iphone 6+, 7+, 8+ */
+/*iphone 6+, 7+, 8+ *
 @media only screen and (min-device-width: 414px) and (max-device-height : 736px) and (-webkit-min-device-pixel-ratio : 3) and (orientation : portrait){
 	
 main{display:none;}
@@ -1305,7 +1336,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 }
 
-/*iphone X */
+/*iphone X *
 @media only screen and (min-device-width: 375px) and (max-device-height : 812px) and (-webkit-min-device-pixel-ratio : 3) and (orientation : portrait){
 	
 main{display:none;}
@@ -1419,7 +1450,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 }
 
-/*iphone XS Max, XR */
+/*iphone XS Max, XR *
 @media only screen and (min-device-width: 375px) and (max-device-height : 896px) and (-webkit-min-device-pixel-ratio : 3) and (orientation : portrait){
 	
 main{display:none;}
@@ -1540,7 +1571,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 /*ipads -----p-----*/
 
-/*ipad mini*/
+/*ipad mini*
 @media only screen and (min-device-width:768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio  : 1) and (orientation : portrait){
 main{display:none;}
 
@@ -1653,7 +1684,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 }
 
-/*ipad 3*/
+/*ipad 3*
 @media only screen and (min-device-width:768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2){
 main{display:none;}
 
@@ -1777,7 +1808,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 /*(landscapes)-----*/
 
 
-/*Galaxy S3*/
+/*Galaxy S3*
 @media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape){
 	
 main{display:none;}
@@ -1892,7 +1923,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 }
 
-/*Galaxy S4 S5 and Note 3*/
+/*Galaxy S4 S5 and Note 3*
 @media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape){
 	
 main{display:none;}
@@ -2007,7 +2038,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 }
 
-/*Galaxy fold*/
+/*Galaxy fold*
 @media only screen and (min-device-width: 280px) and (max-device-height: 653px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape){
 	
 main{display:none;}
@@ -2127,7 +2158,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 /* iphones -------*/
 
-/*iphone 5, 5S, 5C SE*/
+/*iphone 5, 5S, 5C SE*
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape){
 	
 main{display:none;}
@@ -2241,7 +2272,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 #btn-sub1{display:none;}
 }
 
-/*iphone 6, 7, 8 */
+/*iphone 6, 7, 8 *
 @media only screen and (min-device-width: 375px) and (max-device-height : 667px) and (-webkit-device-pixel-ratio : 2) and (orientation : landscape){
 	
 main{display:none;}
@@ -2356,7 +2387,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 }
 
-/*iphone 6+, 7+, 8+ */
+/*iphone 6+, 7+, 8+ *
 @media only screen and (min-device-width: 414px) and (max-device-height : 736px) and (-webkit-min-device-pixel-ratio : 3) and (orientation : landscape){
 	
 main{display:none;}
@@ -2470,7 +2501,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 #btn-sub1{display:none;}
 }
 
-/*iphone X */
+/*iphone X *
 @media only screen and (min-device-width: 375px) and (max-device-height : 812px) and (-webkit-min-device-pixel-ratio : 3) and (orientation : landscape){
 	
 main{display:none;}
@@ -2585,7 +2616,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 }
 
-/*iphone XS Max, XR */
+/*iphone XS Max, XR *
 @media only screen and (min-device-width: 375px) and (max-device-height : 896px) and (-webkit-min-device-pixel-ratio : 3) and (orientation : landscape){
 	
 main{display:none;}
@@ -2708,7 +2739,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 /*ipads -----p-----*/
 
 
-/*ipad mini*/
+/*ipad mini*
 @media only screen and (min-device-width:768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio  : 1) and (orientation : landscape){
 main{display:none;}
 
@@ -2824,7 +2855,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 }
 
 
-/*ipad 3*/
+/*ipad 3*
 @media only screen and (min-device-width:768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2){
 main{display:none;}
 

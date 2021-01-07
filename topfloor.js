@@ -55,49 +55,79 @@ $(function(){
 		$("#btn-sub0").css("display", "block");
 	});
 	
+
+
+
+
+
+
+	
+
+	$("#menu-cover").click(function(){
+		$("#menu-cover").css("display", "none");
+		$("#close-trigger").css("display", "block");
+		$("#offslide").animate({left: "0%"}, 800);
+		$("#offslide-btn").css("display", "none");
+		$("#offslide-h1").animate({left: "15%"} ,900);
+		$("#offslide-downbar").animate({top: "78%"} ,500);
+		$("#offslide-downbar").animate({width: "100%"} ,700);
+		$("#menu-cover").off(click);
+	});
+
+	$("#close-trigger").click(function(){
+		$("#menu-cover").css("display", "block");
+		$("#offslide").animate({left: "-100%"}, 800);
+		$("#offslide-btn").css("display", "block");
+		$("#offslide-h1").animate({left: "-70%"}, 900);
+		$("#offslide-downbar").animate({bottom: "-108%"} ,500);
+		$("#offslide-downbar").animate({width: "0%"} ,300);
+		$("#close-trigger").css("display", "block");
+		$("#close-trigger").off(click);
+	});
+
+
+	
+
+	$("#works-span").click(function(){
+	$("#down").animate({height: "13%"}, 800);
+	$("#contact").animate({top: "58%"}, 500);
+	$("#exhibition").animate({top: "68%"}, 500);
+	$("#works-span").css("display", "none");
+	$("#works-span2").css("display", "block");
+	$("#mob-year").css("display", "block");
+	$("#mob-series").css("display", "block");
+	$("#mob-year").animate({bottom: "0%", opacity: ".3"}, 800);
+	$("#mob-series").animate({bottom: "35%", opacity: ".3"}, 800);
+	$("#offslide-downbar").animate({bottom: "-108%"} ,400);
+	$("#offslide-downbar").animate({width: "0%"} ,550);
+	$("#works-span").off(click);
+	});
+
+	$("#works-span2").click(function(){
+	$("#down").animate({height: "0%"}, 800);
+	$("#contact").animate({top: "48%"}, 1000);
+	$("#exhibition").animate({top: "58%"}, 1000);
+	$("#works-span").css("display", "block");
+	$("#works-span2").css("display", "none");
+	$("#mob-year").animate({bottom: "0%", opacity: "0"}, 800);
+	$("#mob-series").animate({bottom: "35%", opacity: "0"}, 800);
+	$("#offslide-downbar").animate({top: "78%"} ,500);
+	$("#offslide-downbar").animate({width: "100%"} ,700);
+	$("#works-span2").off(click);
+	});
+
+
+
+
 	
 	
 
 });
 
 
-var prev, next, h1, menu, topfloor, topfloor2, slider, slider1, imgbody;
 
- 
-  function downmenu(menu){
-  menu = document.getElementById(menu);
-  h1 = document.getElementById("h1");
-  topfloor = document.getElementById("topfloor");
-  imgbody = document.getElementById("imgbody");
-  downbar = document.getElementById("downbar");
-  fb = document.getElementById("fb");
-  ig = document.getElementById("ig");
-  wa = document.getElementById("wa");
-  topbar = document.getElementById("topbar");
-  slider = document.getElementById("slider");
-  
-if (menu.style.display == "none")
-{
-	menu.style.display = "block";
-	imgbody.style.display = "none";
-	downbar.style.display = "block";
-	fb.style.display = "block";
-	slider.style.display = "block";
-	ig.style.display = "block";
-	wa.style.display = "none";
-	}
 	
-	
-	else{ menu.style.display = "none";           
-		  imgbody.style.display = "block";
-		  downbar.style.display = "none"; 
-		  slider.style.display = "block";			  
-		  fb.style.display = "none";
-		  ig.style.display = "none";
-		  wa.style.display = "none";
-	}
 
-}
 
 
 

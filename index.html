@@ -165,7 +165,7 @@
 
 
 
-    <h1 id ="h1" onclick="change()">Ameh Egwuh</h1>
+   
 
 <div id="downbar">
 
@@ -197,9 +197,15 @@
 
 </div>
 
+
+</div>
+
+
+
+
 <div  id="menubarr"></div>
 
- <div id="topbar" >
+<div id="topbar" >
 
 <div uk-scrollspy="cls:uk-animation-fade; target:>.holder; delay:120; repeat:true;">
    
@@ -210,12 +216,12 @@
 	  </div>
 	  
 	  
-	  <div id="icon-holder"></div>
+	  
 	  <a href="#" id="news-trigger"><span class="fas fa-newspaper"></span></a>
 	  
 	  <a id="menu-trigger">menu</a>
 	  
- </div>
+</div>
 
 	  
 		
@@ -303,50 +309,96 @@
 	 
 	<a id="mail" href="mailto:ameamehame@gmail.com"><span class="uk-icon-link"  uk-icon="icon:mail; ratio:1.7;"></span></a>
 	
-   <div id="toplink">
-      <a id="home" href="/amehome.html" >home</a>
-      <a id="exhibition" href="/amexhibition.html" >exhibition</a>
-      <a id="works" href="/amestudio.html" >works</a>
-      <a id="contact" href="#" >contact</a>
-      <a id="bio" href="/amebio.html" >bio</a>
-	  <a id="newsletter" href="#subscribe" uk-toggle>news letter</a>
-     </div>
-	 
+  
 	 
  </div>
- </div>
+
 
  
  
  
- <div uk-scrollspy="cls:uk-animation-fade; target:> div >.holder; delay:280; repeat:true;">
- <div id="imgbody">
- <img id="slider" class="holder" data-src="/images/rele6.jpg" uk-img>
- <img id="slider1" class="holder" data-src="/images/Logoo1.jpg" uk-img>
- <a id="next" href="#" onclick="imgnext()">&#10095</a>
- <a id="prev" href="#" onclick="imgprev()">&#10094</a>
- </div>
- </div>
+ <div uk-scrollspy="cls:uk-animation-fade; target:> div >.holder; delay:500; repeat:true;">
  
- <!--UIKIT WORKS-->
- 
+		<div id="imgbody">
+		<img id="slider" class="holder" data-src="/images/rele6.jpg" uk-img>
+		<img id="slider1" class="holder" data-src="/images/Logo1.jpg" uk-img>
+		<a id="next" href="#" onclick="imgnext()">&#10095</a>
+		<a id="prev" href="#" onclick="imgprev()">&#10094</a>
+		</div>
 
-		<div uk-lightbox="video-autoplay:true;">
-			<div id="video-cover">
-				<a id="video-box" href="https://youtu.be/K6XFJRkU-JY"  data-caption="rele-YC2020"><span class="far fa-play-circle" ></span></a>
+ </div>
+
+
+ 
+ 
+ <div id="offslide" class="uk-overflow-auto">
+	<h1 id="offslide-h1">Ameh Egwuh</h1>
+	
+	
+	
+	<!--<div id="darkmode" class="container">
+		<div  class="custom-control custom-switch">
+		<input  type="checkbox" class="custom-control-input" id="darkswitch">
+		<label class="custom-control-label" for="darkswitch"></label>
+		</div>
+	</div>-->
+	
+	
+	
+		<div id="toplink">
+			<a id="home" href="file:///C:/Users/USER-PC/Desktop/BE/web%20designs/amehome.html" >home</a><br>
+			<a id="exhibition" href="amestudio.netlify.com" >exhibition</a><br>
+			<a id="works"  href="#">works</a>
+			<div id="down">
+				<a id="mob-year" href="file:///C:/Users/USER-PC/Desktop/BE/web%20designs/ameyear.html" >year</a>
+				<a id="mob-series" href="file:///C:/Users/USER-PC/Desktop/BE/web%20designs/ameseries.html" >series</a>
 			</div>
-		</div>
+			<span id="works-span"  class="fas fa-minus"></span>
+			<span id="works-span2"  class="fas fa-plus"></span>
+			<a id="contact" href="#" >contact</a><br>
+			<a id="bio" href="file:///C:/Users/USER-PC/Desktop/BE/web%20designs/amebio.html" >bio</a><br>
+			
 		
-		<div id="mail-cover">
-        <a id="mail-social" href="mailto:ameamehame@gmail.com" ><span class="fab fa-google"></span></a>	
 		</div>
-		<div id="facebook-cover">
-		<a id="facebook-social" href="https://www.facebook.com/egwuh.amehkelvinace" ><span class="fab fa-facebook-f"></span></a>
+	
+		<div id="close-trigger">
+			<a id="offslide-trigger" ><span class="fas fa-bars"></span></a>
 		</div>
-		<div id="instagram-cover">
-		<a id="instagram-social" href="https://www.instagram.com/ameh_egwuh/" ><span class="fab fa-instagram"></span></a>	
-		</div>
- 
+	
+	
+<div id="offslide-downbar">
+		<form action="file:///C:/Users/USER-PC/Desktop/BE/web%20designs/form-success.html"  name="purchase request" data-netlify="true" method="POST">
+			<input name="email" id="offslide-email" type="email" placeholder="email..." required>
+		</form>
+</div>
+
+</div>
+
+
+<!--UKIT WORKS-->
+
+
+<div id="showbar">
+<div uk-lightbox="video-autoplay:true;">
+	<div id="video-cover">
+	<a id="video-box" href="C:\Users\USER-PC\Desktop\BE\web designs\amestudio\video\amestd.mp4"  data-type="video" data-caption="rele-YC2020"><span class="far fa-play-circle" style="color:white;"></span></a>
+	</div>
+</div>
+
+<div id="mail-cover">
+<a id="mail" href="mailto:ameamehame@gmail.com" ><span class="fab fa-google"></span></a>	
+</div>
+<div id="facebook-cover">
+<a id="facebook-social" href="https://www.facebook.com/egwuh.amehkelvinace" ><span class="fab fa-facebook-f"></span></a>
+</div>
+<div id="instagram-cover">
+<a id="instagram-social" href="https://www.instagram.com/ameh_egwuh/" ><span class="fab fa-instagram"></span></a>	
+</div>
+<div id="menu-cover">
+<a id="offslide-btn" href="#"  ><span class="fas fa-bars"></span></a>
+</div>
+
+</div>	
 
 	<!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
