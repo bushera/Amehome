@@ -317,10 +317,10 @@
  
  
  
- <div uk-scrollspy="cls:uk-animation-fade; target:> div >.holder; delay:280; repeat:true;">
+ <div uk-scrollspy="cls:uk-animation-fade; target:> div >.holder; delay:300; repeat:true;">
  
 		<div id="imgbody">
-		<img id="slider" class="holder" data-src="/images/rele6.jpg" uk-img>
+		<img id="slider" class="holder" data-src="/images/rele6c.png" uk-img>
 		<img id="slider1" class="holder" data-src="/images/Logo1.jpg" uk-img>
 		<a id="next" href="#" onclick="imgnext()">&#10095</a>
 		<a id="prev" href="#" onclick="imgprev()">&#10094</a>
@@ -347,38 +347,56 @@
 	
 		<div id="toplink">
 			<a id="home" href="file:///C:/Users/USER-PC/Desktop/BE/web%20designs/amehome.html" >home</a><br>
-			<a id="exhibition" href="amestudio.netlify.com" >exhibition</a><br>
-			<a id="works"  href="#">works</a>
+			<a id="painting"  href="#">painting</a>
 			<div id="down">
 				<a id="mob-year" href="file:///C:/Users/USER-PC/Desktop/BE/web%20designs/ameyear.html" >year</a>
 				<a id="mob-series" href="file:///C:/Users/USER-PC/Desktop/BE/web%20designs/ameseries.html" >series</a>
 			</div>
 			<span id="works-span"  class="fas fa-minus"></span>
 			<span id="works-span2"  class="fas fa-plus"></span>
-			<a id="contact" href="#" >contact</a><br>
-			<a id="bio" href="file:///C:/Users/USER-PC/Desktop/BE/web%20designs/amebio.html" >bio</a><br>
+			<a id="exhibition" href="amestudio.netlify.com" >exhibition</a><br>
+			<a id="profile" href="#" >profile</a><br>
+			<a id="contact" href="file:///C:/Users/USER-PC/Desktop/BE/web%20designs/amebio.html" >contact</a><br>
 			
 		
 		</div>
 	
-		<div id="close-trigger">
-			<a id="offslide-trigger" ><span class="fas fa-bars"></span></a>
-		</div>
+		
+			<a id="close-trigger"  href="#" uk-close="ratio:.8" ></a>
+		
 	
+		<svg id="offslide-down"  viewBox="0 0 360 213" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<g id="offslide-downbar">
+			<g id="Rectangle 4" filter="url(#filter0_i)">
+			<path d="M0 6.36838C0 6.36838 107 -35.2945 188 96.3684C269 228.031 360 96.3684 360 96.3684V254.368H0V144.237V6.36838Z" fill="#FAFDFE"/>
+			</g>
+			</g>
+			<defs>
+			<filter id="filter0_i" x="0" y="0.109787" width="360" height="258.259" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dy="4"/>
+			<feGaussianBlur stdDeviation="2"/>
+			<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="shape" result="effect1_innerShadow"/>
+			</filter>
+			</defs>
+		</svg>
+			
+
 	
-<div id="offslide-downbar">
-		<form action="file:///C:/Users/USER-PC/Desktop/BE/web%20designs/form-success.html"  name="purchase request" data-netlify="true" method="POST">
-			<input name="email" id="offslide-email" type="email" placeholder="email..." required>
-		</form>
-</div>
 
 </div>
 
 
 <!--UKIT WORKS-->
 
+<div uk-scrollspy="cls:uk-animation-fade; target:>.holder; delay:300; repeat:true;">
 
-<div id="showbar">
+
+<div id="showbar" class="holder">
 <div uk-lightbox="video-autoplay:true;">
 	<div id="video-cover">
 	<a id="video-box" href="C:\Users\USER-PC\Desktop\BE\web designs\amestudio\video\amestd.mp4"  data-type="video" data-caption="rele-YC2020"><span class="far fa-play-circle" style="color:white;"></span></a>
@@ -394,9 +412,19 @@
 <div id="instagram-cover">
 <a id="instagram-social" href="https://www.instagram.com/ameh_egwuh/" ><span class="fab fa-instagram"></span></a>	
 </div>
-<div id="menu-cover">
-<a id="offslide-btn" href="#"  ><span class="fas fa-bars"></span></a>
-</div>
+
+
+
+<a id="menu-btn" href="#"  >MENU</a>
+
+<a id="news-btn" href="#"  >NEWS</a>
+
+<a id="help-btn" href="#"  >HELP</a>
+
+
+
+</div>	
+
 
 </div>	
 

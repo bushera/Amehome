@@ -63,24 +63,18 @@ $(function(){
 
 	
 
-	$("#menu-cover").click(function(){
-		$("#menu-cover").css("display", "none");
+	$("#menu-btn").click(function(){
 		$("#close-trigger").css("display", "block");
-		$("#offslide").animate({left: "0%"}, 800);
-		$("#offslide-btn").css("display", "none");
+		$("#offslide").animate({left: "0%"}, 500);
+		$("#menu-btn").css("display", "none");
 		$("#offslide-h1").animate({left: "15%"} ,900);
-		$("#offslide-downbar").animate({top: "78%"} ,500);
-		$("#offslide-downbar").animate({width: "100%"} ,700);
-		$("#menu-cover").off(click);
+		$("#menu-btn").off(click);
 	});
 
 	$("#close-trigger").click(function(){
-		$("#menu-cover").css("display", "block");
-		$("#offslide").animate({left: "-100%"}, 800);
-		$("#offslide-btn").css("display", "block");
+		$("#offslide").animate({left: "-100%"}, 500);
+		$("#menu-btn").css("display", "block");
 		$("#offslide-h1").animate({left: "-70%"}, 900);
-		$("#offslide-downbar").animate({bottom: "-108%"} ,500);
-		$("#offslide-downbar").animate({width: "0%"} ,300);
 		$("#close-trigger").css("display", "block");
 		$("#close-trigger").off(click);
 	});
