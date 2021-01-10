@@ -391,7 +391,7 @@ h1{ position:fixed; text-align:center; top:5%; left:10%; font-family:san-serif; 
 /*(portraits)-----*/
 
 /*Andriod */
-@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait){
+@media only screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait){
 	
 main{display:none;}
 
@@ -533,7 +533,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 }
 
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait){
+@media only screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait){
 	
 	main{display:none;}
 	
@@ -797,7 +797,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 }
 
 /*iphone 6, 7, 8 */
-@media only screen and (min-device-width: 375px) and (max-device-width : 667px) and (-webkit-device-pixel-ratio : 2) and (orientation : portrait){
+@media only screen and (min-device-width: 375px) and (max-device-width : 667px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait){
 	
 main{display:none;}
 
@@ -844,11 +844,11 @@ main{display:none;}
 
 #img-body{display:none;}
 
-#slider {position:fixed; width:100%; height:88%; top:12%; border-radius:px; bottom:0px; z-index:99; filter:grayscale(100);}
+#slider {position:absolute; width:100%; height:598px; top:80px; border-radius:px; bottom:0px; z-index:99; filter:grayscale(100);}
 #slider1 {position:fixed; width:100%; height:88%; top:12%; border-radius:px; bottom:0px;display:none;}
 
 
-#showbar{position: absolute; width: 375px; height: 175px; left: 0px; top: 1px; background: #263238; box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 10px;}
+#showbar{position: absolute; width: 375px; height: 175px; left: 0px; top: 1px; background: #263238; box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); }
 #video-cover{position:absolute; display:none; top:40%; right:74%; background:orange; opacity:.4; width:24px; height:24px; border-radius:50%; filter:grayscale(100);}
 #video-box{position:absolute; top:2%; left:15.11%; font-size:17px; color:white;}
 #video-cover:hover{opacity:.8; filter:grayscale(0);}
