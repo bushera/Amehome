@@ -391,7 +391,7 @@ h1{ position:fixed; text-align:center; top:5%; left:10%; font-family:san-serif; 
 /*(portraits)-----*/
 
 /*Andriod */
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait){
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait){
 	
 main{display:none;}
 
@@ -533,7 +533,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 }
 
 
-@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait){
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait){
 	
 	main{display:none;}
 	
@@ -681,7 +681,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 /* iphones -------*/
 
-/*iphone 5, 5S, 5C SE*/
+/*iphone 5, 5S, 5C SE*
 @media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait){
 	
 main{display:none;}
@@ -797,7 +797,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 }
 
 /*iphone 6, 7, 8 */
-@media only screen and (min-device-width: 375px) and (max-device-height : 667px) and (-webkit-device-pixel-ratio : 2) and (orientation : portrait){
+@media only screen and (min-device-width: 375px) and (max-device-width : 667px) and (-webkit-device-pixel-ratio : 2) and (orientation : portrait){
 	
 main{display:none;}
 
@@ -938,7 +938,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 }
 
-/*iphone 6+, 7+, 8+ */
+/*iphone 6+, 7+, 8+ *
 @media only screen and (min-device-width: 414px) and (max-device-height : 736px) and (-webkit-min-device-pixel-ratio : 3) and (orientation : portrait){
 	
 main{display:none;}
@@ -1051,7 +1051,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 }
 
-/*iphone X */
+/*iphone X *
 @media only screen and (min-device-width: 375px) and (max-device-height : 812px) and (-webkit-min-device-pixel-ratio : 3) and (orientation : portrait){
 	
 main{display:none;}
@@ -1165,7 +1165,7 @@ h1{top:-5%; left:2%; font-size:15px; display:none;}
 
 }
 
-/*iphone XS Max, XR */
+/*iphone XS Max, XR *
 @media only screen and (min-device-width: 375px) and (max-device-height : 896px) and (-webkit-min-device-pixel-ratio : 3) and (orientation : portrait){
 	
 main{display:none;}
