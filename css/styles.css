@@ -844,7 +844,7 @@ main{display:none;}
 
 #img-body{display:none;}
 
-#slider {position:fixed; width:100%; height:88%; top:12%;   z-index:99; filter:grayscale(100);}
+#slider {position:fixed; max-width:100%; height:88%; top:12%;   z-index:99; filter:grayscale(100);}
 #slider1 {position:fixed; width:100%; height:88%; top:12%; border-radius:px; bottom:0px;display:none;}
 
 
@@ -871,7 +871,7 @@ main{display:none;}
 #offslide{background:#263238; position:fixed; width:100%; top:0%; height:100%; left:-100%; opacity:1; border-radius:0px 0px 0px 0px; display:block; z-index:999;}
 #offslide-h1{position:absolute; font-size:19px; letter-spacing:2px; top:13%; left:-70%; font-family:gothic; font-weight:normal; display:none;}
 #offslide>button{position:absolute; top:96%; right:3%; }
-#offslide-down{position:absolute; top:387px; width:375px; height:281px;  box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.25);}
+#offslide-down{position:fixed; top:60%; max-width:100%; height:40%;  box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.25);}
 #offslide-email{position:absolute; width:80%; left:10%; height:27%; top:60%; font-size:12px; text-align:center; background:#004d40; color:white; border-radius:600px 30px 200px 0px; opacity:1; border:2px solid transparent;letter-spacing:3px;}
 #hr1{position:absolute; display:none; width:100%; height:25%; background:transparent; top:11%; opacity:1; border-top:1px solid rgba(0,0,0,.05);  border-bottom:1px solid rgba(0,0,0,.05);}
 #darkmode{position:absolute; top:32%; left:75%; color:black; width:0%; height:0%; }
