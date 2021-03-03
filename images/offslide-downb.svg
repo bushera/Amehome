@@ -1,10 +1,10 @@
-<svg width="362" height="238" viewBox="0 0 362 238" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="360" height="249" viewBox="0 0 360 249" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_i)">
-<path d="M1 10.8038C81.4255 -44.3657 83 154.493 189 83.7661C295 13.0393 269.34 271.582 361 173.118V237H203.979H1.00001L1 10.8038Z" fill="#FFFDFD"/>
+<path d="M-9 11.9669C75.4468 -49.7481 77.1 172.704 188.4 93.5858C299.7 14.4677 272.757 303.685 369 193.538V265H204.128H-8.99999L-9 11.9669Z" fill="#FFFDFD"/>
 </g>
-<path d="M1 10.8038C81.4255 -44.3657 83 154.493 189 83.7661C295 13.0393 269.34 271.582 361 173.118V237H203.979H1.00001L1 10.8038Z" stroke="#FBF6F6" style="mix-blend-mode:darken"/>
+<path d="M-9 11.9669C75.4468 -49.7481 77.1 172.704 188.4 93.5858C299.7 14.4677 272.757 303.685 369 193.538V265H204.128H-8.99999L-9 11.9669Z" stroke="#FBF6F6" style="mix-blend-mode:darken"/>
 <defs>
-<filter id="filter0_i" x="0.5" y="0.5" width="361" height="241" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_i" x="-9.5" y="0.5" width="379" height="269" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>

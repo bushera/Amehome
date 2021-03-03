@@ -14,79 +14,35 @@ main{display:none;}
 	100%{background:rgba(0,0,0,.02);}
 }
 
-#topbar {width:98%; height:73%; top:16.5%; left:1%; background:linear-gradient(white 50%, grey 555%); position:fixed; opacity:1; border-radius:0px 0px 80px 80px;  display:none;}
-#topbar-img{ position:absolute; top:10%; right:6%; display:block; height:58%; width:20%; border-radius:50%; z-index:99;}
-#topbar:hover {background:}
-
-#img-body{position:absolute; height:68%; top:5%; left:9%; width:62%; animation:scally 7s ease 3s infinite alternate; animation-delay:2s;}
-@keyframes scally{
-		from{transform:scale(0.98,0.98);}
-		to{transform:scale(1.1,1.1);}
-	}
-#menubar{position:absolute; height:0%; width:100%; top:0%; background:linear-gradient(500deg,#263238 50%,black 150%); left:0%; z-index:999; display:block;}
-#menu-close{position:absolute; z-index:99999; color:white; font-size:7px; font-weight:lighter; left:5%; top:40%; display:none; }
-#menu-trigger{position:absolute; top:88%; right:10%; color:black;}
-#color1{position:absolute; height:0%; width:40%; left:0%; background:white; z-index:99999; border-radius:0px 40px 40px 0px;}
-#color2{position:absolute; height:0%; width:44%; left:0%; background:grey; z-index:9999; border-radius:0px 40px 40px 0px;}
-#color3{position:absolute; height:0%; width:48%; left:0%; background:brown; z-index:999; border-radius:0px 40px 40px 0px;}
-#color4{position:absolute; height:0%; width:52%; left:0%; background:black; z-index:99; border-radius:0px 40px 40px 0px;}
-#color5{position:absolute; height:0%; width:56%; left:0%; background:orange; z-index:9; border-radius:0px 40px 40px 0px;}
-	 
-
-#home1{position:absolute; font-weight:bold; color:white; top:25%; right:16.8%; opacity:.3; font-size:10px; text-transform:uppercase; text-decoration:none; z-index:999; }
-#bio1{position:absolute; font-weight:bold; color:white; top:25%; right:14.3%; opacity:.3; font-size:10px; text-transform:uppercase; text-decoration:none; z-index:999; }
-#works1{position:absolute; font-weight:bold; color:white; top:25%; right:10.5%; opacity:.3; font-size:10px; text-transform:uppercase; text-decoration:none; z-index:999; }
-#exhibition1{position:absolute; font-weight:bold; color:white; top:25%; right:5.3%; opacity:.3; font-size:10px; text-transform:uppercase; text-decoration:none; z-index:999;}
-#contact1{position:absolute; font-weight:bold; color:white; top:25%; right:1%; opacity:.3; font-size:10px; text-transform:uppercase; text-decoration:none; z-index:999; }
-
-#toplink{bottom-margin:100px;}
-#home{color:black;  font-weight:bold;text-decoration:none; position:fixed; left:10%; top:77%; letter-spacing:8px; font-size:18px; opacity:.3;}
-#bio{color:black; font-weight:bold;text-decoration:none; position:fixed;  left:18%; top:77%; letter-spacing:8px; font-size:18px; opacity:.3;}
-#works{color:black;  font-weight:bold;text-decoration:none; position:fixed; left:24%; top:77%; letter-spacing:8px; font-size:18px; opacity:.3;}
-#contact{color:black; font-weight:bold;text-decoration:none; position:fixed; left:34%; top:77%; letter-spacing:8px; font-size:18px; opacity:.3}
-#exhibition{color:black; font-weight:bold;text-decoration:none; position:fixed; left:46%; top:77%; letter-spacing:8px; font-size:18px; opacity:.3}
-
-#home:hover{opacity:1;}
-#bio:hover{opacity:1}
-#works:hover{opacity:1}
-#contact:hover{opacity:1}
-#exhibition:hover{opacity:1}
-
-h1{ position:fixed; text-align:center; top:5%; left:10%; font-family:san-serif; font-weight:lighter; font-size:26px; display:none; }
-
-@keyframes scallly{
-		from{transform:scale(1,1);}
-		to{transform:scale(1.15,1.15);}
-	}
-
-#next {position:absolute; text-decoration:none; font-size:25px; top:320px; right:5px; color:white; filter:opacity(.5); font-weight:bolder; display:none;}
-#prev {position:absolute; text-decoration:none; font-size:25px;  top:320px; left:5px; color:white; filter:opacity(.5); font-weight:bolder;display:none;}
-#prev:hover {filter:opacity(1); color:white;}
-#next:hover {filter:opacity(1); color:white;}
-
-#topfloor{height:21px; width:21px;  background:teal; border-radius:50%; opacity:.4; position:fixed; filter:grayscale(100);}
-#topfloor>div {width:13px; height:2px;  margin-top:3px; margin-left:3px; background:white; opacity:1; border-radius:4px; transistion:background.8s linear 0s;}
-#topfloor:hover{opacity:.8; filter:grayscale(0);}
 
 
 
-#downbar{height:235px; width:100%; background:linear-gradient(500deg,#263238 50%,black 88%); position:absolute; bottom:0%; display:none;}
+#menubar{position:absolute; height:5%; width:40%; top:0%; background:black; opacity:.85; right:10%; border-radius: 0px 0px 0px 60px; z-index:99; display:block;}
+#menubarr{position:absolute; right:0%; width:13%; height:5%; background: #16011E; border-radius: 0px 10px 30px 60px; z-index:999; }
+
+
+#home1{position:absolute;  color:white; top:25%; left:35%;  font-size:14px; font-family:Arial, Helvetica, sans-serif; font-style: normal; font-weight: bold; text-transform:uppercase; text-decoration:none; text-align: center; letter-spacing: 0.4em;}
+
+#painting1{position:absolute;  color:white; top:25%; left:15%;  font-size:12px; font-family:Arial, Helvetica, sans-serif; font-style: normal; font-weight: bold; text-transform:uppercase; text-decoration:none; text-align: center; letter-spacing: 0.4em;}
+#profile1{position:absolute;  color:white; top:25%; left:34%; font-size:12px; font-family:Arial, Helvetica, sans-serif; font-style: normal; font-weight: bold; text-transform:uppercase; text-decoration:none; text-align: center; letter-spacing: 0.4em;}
+#exhibition1{position:absolute; color:white; top:25%; left:52%; font-size:12px; font-family:Arial, Helvetica, sans-serif; font-style: normal; font-weight: bold; text-transform:uppercase; text-decoration:none; text-align: center; letter-spacing: 0.4em;}
+#contact1{position:absolute;  color:white; top:25%; left:75%; font-size:12px; font-family:Arial, Helvetica, sans-serif; font-style: normal; font-weight: bold; text-transform:uppercase; text-decoration:none; text-align: center; letter-spacing: 0.4em;}
 
 
 
 
-#fb{position:absolute; top:68.8%; right:17%; color:black; opacity:1; display:none;}
-#fb:hover{opacity:.2;}
 
-#ig{position:absolute; top:68.8%; right:15%; color:black; opacity:1; display:none;}
-#ig:hover{opacity:.2;}
+#desktop-topimg{position:absolute; width:100%; height:80%; display:none;}
+#ameh-logo{position:fixed; right:-3%; top:58%; display:none;}
 
-#wa{display:none; opacity:1; height:20px; width:20px; position:absolute; top:68%; right:10%; border-radius:0%; background:rgba(0,0,0,0); opacity:.8;}
-#wadown{display:none; position:fixed; width:100%; height:4%; background:linear-gradient(50deg, green 1%, white 55%); bottom:.2%;}
-#wadown>h3{position:absolute; bottom:-30%; font-size:12px; left:60px; font-weight:lighter; color:black; letter-spacing:8px;}
+#downbar{height:20%; width:100%; background:white; position:absolute; bottom:0%; display:none;}
+#undraw{position:absolute; height:45px; top:35%; width:45px; left:5%; align-items: center;}
+#UIKIT{position:absolute; height:45px; top:35%; width:45px; left:12%; align-items: center;}
+#materialize{position:absolute; height:80px; top:30%; width:80px; left:19%; align-items: center;}
+#unsplash{position:absolute; height:80px; top:30%; width:80px; left:26%; align-items: center;}
+#rele{position:absolute; height:80px; top:30%; width:80px; left:33%; align-items: center;}
+#bushera{position:absolute; height:80px; top:30%; width:80px; left:40%; align-items: center; filter:grayscale(100)}
 
-#socialslide{position:absolute; width:100%; height:90%; bottom:0%; background:rgba(0,130,120,1); opacity:.8; display:none;}
-#socialslide>#slideimage{position:fixed; height:0%; width:100%; bottom:21.3%; left:0%; }
 
 
 
@@ -97,57 +53,23 @@ h1{ position:fixed; text-align:center; top:5%; left:10%; font-family:san-serif; 
 /*laptops & desktops*/
 @media screen and (min-width: 1200px){
 
-#topfloor{display:none;}
+
 #slider{display:none;}
 #slider1{display:none;}
 #downbar{display:block;}
-#topbar{display:block;}
-#fb{display:none;}
-#ig{display:none;}
 
-#offslide-btn{display:none;}
+
+
 #offslide{display:none;}
 #showbar{display:none;}
 
+#desktop-topimg{display:block;}
+#ameh-logo{display:block;}
 
-#news-page{position:absolute; top:0%; left:0%; width:100%; height:0%; background:white; display:block; z-index:99; overflow:hidden; }
-
-#slide1{position:absolute; left:30%; width:40%; top:8%; background:white; display:none; border-radius:0px 0px 5px 5px; overflow:hidden;}
-#news-roll{position:absolute; height:0%; width:50%;  top:0%; left:25%}	
-#sign-in{position:absolute; background:white; z-index:9999;  top:45%; left:45%; width:10%; height:10%;}
-#cancel0{position:absolute; top:90%; right:44%; background:#b0bec5; height:22px; width:5%; border-radius:25px; border:0px solid orange; text-decoration:none; z-index:999;}
-#subscribe{position:absolute; top:90%; left:44%; background:#b0bec5; height:22px; width:5%; border-radius:25px; border:0px solid #00838f; text-decoration:none; z-index:999;}
-#top-btn{position:relative; font-size:10px; font-weight:bold; color:white; text-align:center; top:15%; letter-spacing:1.5px;}
-.uk-card-title{font-size:17px; font-weight:bold;}
-.uk-card-body > p {color:rgba(0,0,0,.25);}
-.uk-card-body{background: linear-gradient(500deg,#263238 50%,black 150%);}
-#read-more{position:absolute; bottom:2%; right:7%; color:rgba(0,0,0,.7); font-size:11px; text-decoration:none;}
 
 #landscape-text{position:absolute; display:none;}
 #landscape-text2{position:absolute; display:none;}
 
-#news-trigger{position:absolute; top:82.5%; left:6%; font-size:19px; color:#00695c; opacity:.3;}
-#news-trigger:hover{opacity:.2;}
-
-#subscribe-cover{position:absolute; height:100%; width:100%; top:0%; left:0%; background:#263238; opacity:.99.1; z-index:9999; display:none;}
-#email-sub0{position:absolute; display:block; z-index:9999; top:80%; left:2.5%; font-size:13px; font-weight:bold;  width:95%; height:10%; letter-spacing:3px; text-align:center; color:white; background:transparent; overflow:scroll; border-top:1px solid transparent;  border-left:1px solid transparent;  border-right:1px solid transparent;  border-bottom:1px solid white;}
-#btn-sub0{position:absolute; height:6%; width:6%; left:47%; top:92%; font-size:11px; font-weight:bold; color:white; background:transparent; text-align:center; border-radius:25px; border:2px solid cyan; z-index:9999; display:none;}
-#sub-btn{position:absolute; font-size:12px; font-weight:bold; color:white; text-align:center; top:20%; left:20%; letter-spacing:5.5px;}
-#cancel1{position:absolute; top:2%; left:1%; color:#b0bec5; }
-#form-heading{font-size:16px; font-weight:bold; position:absolute; top:-5%; left:43%; letter-spacing:3px;  color:#b0bec5;}
-
-
-#newsletter{display:none;}
-#mail{position:absolute; top:59%; left:70%; display:none;}
-#email-sub1{position:fixed; display:none; top:60%; left:20.8%; font-size:13px; font-weight:normal;  width:22%; height:6%; letter-spacing:3px; text-align:center; color:white; background:black; border-radius:40px 0px 0px 40px; font-weight:bold;  animation:scally 7s ease 3s infinite alternate; animation-delay:2s; overflow:scroll; }
-#btn-sub1{position:fixed; display:none; top:60%; left:43%; font-weight:bold; opacity:1; background:rgba(170,0,0,1); color:white; width:7%; height:6%; border-radius:0px 40px 40px 0px; text-align:center;  animation:scally 7s ease 3s infinite alternate; animation-delay:2s;}
-#email-sub{display:none;}
-#btn-sub{display:none;}
-
-#facebook-social{display:none;}
-#instagram-social{display:none;}
-#mail-social{display:none;}
-#video-box{display:none;}
 
 #home{display:none; }
 #bio{display:none; }
@@ -189,48 +111,18 @@ h1{ position:fixed; text-align:center; top:5%; left:10%; font-family:san-serif; 
 	
 	
 	
-	#news-page{position:absolute; top:0%; left:0%; width:100%; height:0%; background:white; display:block; z-index:99; overflow:hidden; }
-	#cancel0{position:absolute; top:90%; right:30%; background:#b0bec5; height:25px; width:65px; border-radius:25px; border:0px solid #424242; text-decoration:none; z-index:999;}
-	#subscribe{position:absolute; top:90%; left:30%; background:#b0bec5; height:25px; width:65px; border-radius:25px; border:0px solid #424242; text-decoration:none; z-index:999;}
-	#top-btn{position:relative; font-size:13px; font-weight:bold; color:white; text-align:center; top:10%; letter-spacing:1.5px;}
-	.uk-card-title{font-size:19px; font-weight:bold;}
-	.uk-card-body > p {color:rgba(0,0,0,.25); font-size:17px;}
-	#read-more{position:absolute; bottom:2%; right:7%; color:rgba(0,0,0,.7); font-size:12px; text-decoration:none;}
 	
 	#landscape-text{position:absolute; display:none;}
 	#landscape-text2{position:absolute; display:none;}
 	
 	
-	#subscribe-cover{position:absolute; height:100%; width:100%; top:0%; left:0%; background:#00695c; opacity:1; z-index:9999; display:none;}
-	#email-sub0{position:absolute; display:block; z-index:999; top:80%; left:2.5%; font-size:14px;  width:95%; height:10%; letter-spacing:3px; text-align:center; color:white; background:transparent; overflow:scroll; border-top:1px solid transparent;  border-left:1px solid transparent;  border-right:1px solid transparent;  border-bottom:1px solid white;}
-	#btn-sub0{position:absolute; height:5%; width:70px; left:42.5%; top:92%;  background:#00695c; text-align:center; border-radius:25px; border:2px solid cyan; z-index:9999; display:none;}
-	#sub-btn{position:absolute; font-size:12px; font-weight:bold; color:white; text-align:center; top:20%; left:20%; letter-spacing:5.5px;}
-	#cancel1{position:absolute; top:1%; left:1%; color:#b0bec5;}
-	#form-heading{font-size:15px; font-weight:bold; position:absolute; top:-4.5%; left:37%; letter-spacing:2px;  color:#b0bec5;}
 	
-	#topbar{width:100%; display:none; height:100%; top:17%; border-radius:0px; left:0%; background:red; border-radius:0px 0px 40px 40px;}
-	#topbar-img{width:150px; height:150px; right:6%; top:21%; display:none;}
-	
-	
-	#img-body{display:none;}
-	
-	#slider {position:fixed; width:10%; height:88%; top:12%; border-radius:px; bottom:0px; z-index:99; filter:grayscale(100);}
+	#slider {position:fixed; width:10%; height:88%; top:12%; border-radius:px; bottom:0px; z-index:99; filter:grayscale(100); display:none;}
 	#slider1 {position:fixed; width:100%; height:88%; top:12%; border-radius:px; bottom:0px;display:none;}
 	
 	
 		 #showbar{position: absolute; width:100%; height:25%; left: 0px; top: 1px; background: #263238; box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);}
-		 #video-cover{position:absolute; display:none; top:40%; right:74%; background:orange; opacity:.4; width:24px; height:24px; border-radius:50%; filter:grayscale(100);}
-		 #video-box{position:absolute; top:2%; left:15.11%; font-size:17px; color:white;}
-		 #video-cover:hover{opacity:.8; filter:grayscale(0);}
-		 #mail-cover{position:absolute; display:none; top:40%; right:38%; background:darkred; opacity:.4; width:24px; height:24px; border-radius:50%; filter:grayscale(100);}
-		 #mail{position:absolute; top:4%; right:17%; font-size:15px; color:white;}
-		 #mail-cover:hover{opacity:.8; filter:grayscale(0);}
-		 #facebook-cover{position:absolute; display:none; top:40%; right:50%; background:darkblue; opacity:.4; width:24px; height:24px; border-radius:50%; filter:grayscale(100);}
-		 #facebook-social{position:absolute; top:4%; right:28%; font-size:15px; color:white;}
-		 #facebook-cover:hover{opacity:.8; filter:grayscale(0);}
-		 #instagram-cover{position:absolute; display:none; top:40%; right:62%; background:purple; opacity:.4; width:24px; height:24px; border-radius:50%; filter:grayscale(100);}
-		 #instagram-social{position:absolute; top:2%; right:20%; font-size:17px; color:white;}
-		 #instagram-cover:hover{opacity:.8; filter:grayscale(0);}
+		 
 		 #close-trigger{position:absolute;  top:2%; right:5%; color:white; display:none;}
 		 
 		 #menu-btn{position: absolute; width: 107px; height: 23px; left: 36px; top: 24px; font-family: Segoe Print; font-style: normal; font-weight: bold; font-size: 13px; line-height: 23px; text-align: center; letter-spacing: 0.1em; color: #FFFDFD; text-decoration:none;} 
@@ -238,73 +130,42 @@ h1{ position:fixed; text-align:center; top:5%; left:10%; font-family:san-serif; 
 		 #help-btn{position: absolute; width: 107px; height: 23px; left: 218px; top: 24px; font-family: Segoe Print; font-style: normal; font-weight: bold; font-size: 13px; line-height: 23px; text-align: center; letter-spacing: 0.1em; color: #FFFDFD; text-decoration: none;}
 	
 		 #offslide-btn{display:block;}
-		 #offslide{background:#263238; position:fixed; width:100%; top:0%; height:100%; left:-100%; opacity:1; border-radius:0px 0px 0px 0px; display:block; z-index:999;}
-		 #offslide-h1{position:absolute; font-size:19px; letter-spacing:2px; top:13%; left:-70%; font-family:gothic; font-weight:normal; display:none;}
-		 #offslide>button{position:absolute; top:96%; right:3%; }
+		 #offslide{background: linear-gradient(180deg, rgba(22, 1, 30, 0.7) 98.23%, #263238 99.99%, #263238 100%, #263238 100%), linear-gradient(171.01deg, rgba(210, 6, 153, 0.95) 0%, rgba(110, 51, 117, 0.980748) 37.7%, #2F4F5F 72.5%, #2F4F5F 93.15%); position:fixed; width:35%; top:0%; height:100%; left:-100%; opacity:1;  display:block; z-index:999;}
 		 #offslide-down{position:absolute; bottom: 0%; width:360px; height:213px;  box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.25);}
-		 #offslide-email{position:absolute; width:80%; left:10%; height:27%; top:60%; font-size:12px; text-align:center; background:#004d40; color:white; border-radius:600px 30px 200px 0px; opacity:1; border:2px solid transparent;letter-spacing:3px;}
-		 #hr1{position:absolute; display:none; width:100%; height:25%; background:transparent; top:11%; opacity:1; border-top:1px solid rgba(0,0,0,.05);  border-bottom:1px solid rgba(0,0,0,.05);}
 		 #darkmode{position:absolute; top:32%; left:75%; color:black; width:0%; height:0%; }
 		 
 		 
-		 #home{position: absolute; width: 168px; height: 31px; left: 104px; top: 106px; font-family: Segoe Print; font-style: normal; font-weight: bold; font-size: 18px; line-height: 32px; align-items: center; text-align: center; letter-spacing: 0.1em; color: rgb(87, 112, 141); text-decoration:none;}
+		 #home{position: absolute; width: 168px; height: 31px; left: 104px; top: 106px; font-family: Segoe Print; font-style: normal; font-weight: bold; font-size: 18px; line-height: 32px; align-items: center; text-align: center; letter-spacing: 0.1em; opacity:.3; color: rgb(87, 112, 141); text-decoration:none;}
 		 #painting{position: absolute; width: 168px; height: 32px; left: 104px; top: 170px; font-family: Segoe Print; font-style: normal; font-weight: bold; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:.3; color:  rgb(87, 112, 141); text-decoration:none;}
 				#down{position:absolute;  height:0%; width:100%; top:43%; left:1.8%; background:white;}
 				#mob-year{position:absolute; top:10.5%; left:40%; display:none; color:black; text-decoration:none; font-weight:bold; letter-spacing:3px; font-size:10px; opacity:.3;}
 				#mob-series{position:absolute; top:65%; left:40%; display:none; color:black; text-decoration:none; font-weight:bold; letter-spacing:3px; font-size:10px; opacity:.3;}
 				#works-span{position:absolute; top:39.6%; right:64%;  color:#00695c; font-size:8px; font-weight:bold; display:none; }
 				#works-span2{position:absolute; top:39.6%; right:64%; color:#00695c; font-size:8px; font-weight:bold; display:none;}
-		 #exhibition{position: absolute; width: 168px; height: 34px; left: 96px; top: 235px; font-family: Segoe Print; font-style: normal; font-weight: bold; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; color:  rgb(87, 112, 141); text-decoration:none;}
+		 #exhibition{position: absolute; width: 168px; height: 34px; left: 96px; top: 235px; font-family: Segoe Print; font-style: normal; font-weight: bold; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:.3; color:  rgb(87, 112, 141); text-decoration:none;}
 		 #profile{position: absolute; width: 168px; height: 34px; left: 96px; top: 302px; font-family: Segoe Print; font-style: normal; font-weight: bold; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:.3; color:  rgb(87, 112, 141); text-decoration:none;}
-		 #contact{position: absolute; width: 168px; height: 35px; left: 96px; top: 369px;font-family: Segoe Print; font-style: normal; font-weight: bold; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; color:  rgb(87, 112, 141); text-decoration:none;}
-		 #home:hover{letter-spacing:0.2em; font-size:20px;}
-		 #painting:hover{letter-spacing:0.2em; font-size:20px;}
-		 #exhibition:hover{letter-spacing:0.2em; font-size:20px;}
-		 #profile:hover{letter-spacing:0.2em; font-size:20px;}
-		 #contact:hover{letter-spacing:0.2em; font-size:20px;}
+		 #contact{position: absolute; width: 168px; height: 35px; left: 96px; top: 369px;font-family: Segoe Print; font-style: normal; font-weight: bold; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:.3; color:  rgb(87, 112, 141); text-decoration:none;}
+		 #home:hover{letter-spacing:0.2em; font-size:20px; opacity: 1;}
+		 #painting:hover{letter-spacing:0.2em; font-size:20px; opacity: 1;}
+		 #exhibition:hover{letter-spacing:0.2em; font-size:20px; opacity: 1;}
+		 #profile:hover{letter-spacing:0.2em; font-size:20px; opacity: 1;}
+		 #contact:hover{letter-spacing:0.2em; font-size:20px; opacity: 1;}
 	
 		
-	#news-trigger{position:absolute; top:70%; right:10%; font-size:22px; color:#00695c; opacity:.3;}
 	
-	
-	h1{top:-5%; left:2%; font-size:15px; display:none;}
-	
-	
-	#topfloor{position:fixed; top:7%; right:26%; width:25px; height:25px; display:none;}
-	#topfloor>div{width:14px; height:2px; margin-top:4px; margin-left:4px;}
-	
-	#topfloor2{left:6.8%; top:1.3%; display:none;}
 	
 	#downbar{height:25%; background:transparent; display:none;}
 	
-	#fb{top:-100%; left:40%; position:absolute; display:none; opacity:0;}
-	#ig{top:-100%; left:48%; position:absolute; display:none; opacity:0;}
-	#wa{top:82%; left:56%; position:absolute; display:none; opacity:0;}
 	
-	
-		 
-	
-	#socialslide{display:none;}
 	
 	#menubarr{position:fixed; width:100%; height:20%; top:80%; display: none;}
 	#menubar{display:none;}
 	
-	#newsletter{position:fixed; top:330px; left:50px; font-weight:bold; letter-spacing:2px; font-size:13px; color:black; opacity:.3; text-decoration:none; display:none;}
-	#newsletter:hover{letter-spacing:10px; font-size:18px; opacity:1;}
-	#mail{position:absolute; top:59%; left:70%; display:none;}
-	#newsletter-modal{position:absolute; height:100%; width:100%; background:linear-gradient(teal 13%, white 5%); top:0%; left:0%;}
-	#newsletter-modal>img{position:absolute; height:100%; width:100%; display:none; filter:grayscale(1) brightness(50%); }
-	#newsletter-form{position:fixed; background:white; width:100%; height:100%; left:0%; top:0%; display:none; }
-	#slide1{position:absolute; left:0%; width:100%; top:18%; background:transparent; display:none; border-radius:0px 0px 5px 5px; overflow:hidden;}
-	#news-roll{position:absolute; height:0%; width:60%;  top:0%; left:20%; box-shadow:0px .8px 18px 2px rgba(0,0,0,.1); border-radius:0px 0px 18px 18px;}	
-	#sign-in{position:absolute; background:white; z-index:9999;  top:45%; left:45%; width:10%; height:10%;}
-	#email-sub{position:absolute; z-index:999; top:0%; left:15.5%; font-size:13px; font-weight:bold;  width:84.3%; height:100%; letter-spacing:3px; text-align:center; color:rgba(0,0,0,1); background:rgba(0,0,0,.1); overflow:scroll; border-radius:60px 20px 20px 60px;}
-	#btn-sub{position:absolute; z-index:999; top:3%; left:1%; opacity:1; background:transparent; color:teal; border:transparent; width:10%; height:10%;}
-	#cancel{position:absolute; z-index:999; top:90.5%; right:1%;}
-	#email-sub1{display:none;}
-	#btn-sub1{display:none;}
+	
 	
 	}
+
+
 
 /*Smartphones */
 @media screen and  (max-width: 480px) and (orientation: portrait){
@@ -334,129 +195,76 @@ h1{ position:fixed; text-align:center; top:5%; left:10%; font-family:san-serif; 
 	
 	
 	
-	#news-page{position:absolute; top:0%; left:0%; width:100%; height:0%; background:white; display:block; z-index:99; overflow:hidden; }
-	#cancel0{position:absolute; top:90%; right:30%; background:#b0bec5; height:25px; width:65px; border-radius:25px; border:0px solid #424242; text-decoration:none; z-index:999;}
-	#subscribe{position:absolute; top:90%; left:30%; background:#b0bec5; height:25px; width:65px; border-radius:25px; border:0px solid #424242; text-decoration:none; z-index:999;}
-	#top-btn{position:relative; font-size:13px; font-weight:bold; color:white; text-align:center; top:10%; letter-spacing:1.5px;}
-	.uk-card-title{font-size:19px; font-weight:bold;}
-	.uk-card-body > p {color:rgba(0,0,0,.25); font-size:17px;}
-	#read-more{position:absolute; bottom:2%; right:7%; color:rgba(0,0,0,.7); font-size:12px; text-decoration:none;}
 	
 	#landscape-text{position:absolute; display:none;}
 	#landscape-text2{position:absolute; display:none;}
 	
 	
-	#subscribe-cover{position:absolute; height:100%; width:100%; top:0%; left:0%; background:#00695c; opacity:1; z-index:9999; display:none;}
-	#email-sub0{position:absolute; display:block; z-index:999; top:80%; left:2.5%; font-size:14px;  width:95%; height:10%; letter-spacing:3px; text-align:center; color:white; background:transparent; overflow:scroll; border-top:1px solid transparent;  border-left:1px solid transparent;  border-right:1px solid transparent;  border-bottom:1px solid white;}
-	#btn-sub0{position:absolute; height:5%; width:70px; left:42.5%; top:92%;  background:#00695c; text-align:center; border-radius:25px; border:2px solid cyan; z-index:9999; display:none;}
-	#sub-btn{position:absolute; font-size:12px; font-weight:bold; color:white; text-align:center; top:20%; left:20%; letter-spacing:5.5px;}
-	#cancel1{position:absolute; top:1%; left:1%; color:#b0bec5;}
-	#form-heading{font-size:15px; font-weight:bold; position:absolute; top:-4.5%; left:37%; letter-spacing:2px;  color:#b0bec5;}
-	
-	#topbar{width:100%; display:none; height:100%; top:17%; border-radius:0px; left:0%; background:red; border-radius:0px 0px 40px 40px;}
-	#topbar-img{width:150px; height:150px; right:6%; top:21%; display:none;}
-	
-	
-	#img-body{display:none;}
 	
 	#slider {position:fixed; width:100%; height:88%; top:12%; border-radius:px; bottom:0px; z-index:99; filter:grayscale(100); }
 	#slider1 {position:fixed; width:100%; height:88%; top:12%; border-radius:px; bottom:0px;display:none;}
 	
 	
-		 #showbar{position: fixed; width: 100%; height: 100%; left: 0px; top: 0%; background:#16011E; box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);}
-		 #video-cover{position:absolute; display:none; top:40%; right:74%; background:orange; opacity:.4; width:24px; height:24px; border-radius:50%; filter:grayscale(100);}
-		 #video-box{position:absolute; top:2%; left:15.11%; font-size:17px; color:white;}
-		 #video-cover:hover{opacity:.8; filter:grayscale(0);}
-		 #mail-cover{position:absolute; display:none; top:40%; right:38%; background:darkred; opacity:.4; width:24px; height:24px; border-radius:50%; filter:grayscale(100);}
-		 #mail{position:absolute; top:4%; right:17%; font-size:15px; color:white;}
-		 #mail-cover:hover{opacity:.8; filter:grayscale(0);}
-		 #facebook-cover{position:absolute; display:none; top:40%; right:50%; background:darkblue; opacity:.4; width:24px; height:24px; border-radius:50%; filter:grayscale(100);}
-		 #facebook-social{position:absolute; top:4%; right:28%; font-size:15px; color:white;}
-		 #facebook-cover:hover{opacity:.8; filter:grayscale(0);}
-		 #instagram-cover{position:absolute; display:none; top:40%; right:62%; background:purple; opacity:.4; width:24px; height:24px; border-radius:50%; filter:grayscale(100);}
-		 #instagram-social{position:absolute; top:2%; right:20%; font-size:17px; color:white;}
-		 #instagram-cover:hover{opacity:.8; filter:grayscale(0);}
+		 #showbar{position: fixed; width: 100%; height: 100%; left: 0px; top: 0%; background: linear-gradient(180deg, rgba(22, 1, 30, 0.99) 99.6%, rgba(255, 255, 255, 0) 100%), linear-gradient(170.8deg, rgba(210, 6, 153, 0.95) -3.81%, rgba(110, 51, 117, 0.9405) -3.62%, rgba(47, 79, 95, 0.95) 33.35%); box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);}
 		 #close-trigger{position:absolute;  top:2%; right:5%; color:white; display:none;}
 		 
 		 #menu-btn{position: absolute; width: 107px; height: 23px; left: 5%; top: 24px; font-family: Segoe Print; font-style: normal; font-weight: bold; font-size: 13px; line-height: 23px; text-align: center; letter-spacing: 0.1em; color: #FFFDFD; text-decoration:none;} 
 		 #news-btn{position: absolute;	width: 107px; height: 23px; left: 35%; top: 24px; font-family: Segoe Print; font-style: normal; font-weight: bold; font-size: 13px; line-height: 23px; text-align: center; letter-spacing: 0.1em; color: #FFFDFD; text-decoration: none;}
 		 #help-btn{position: absolute; width: 107px; height: 23px; left: 65%; top: 24px; font-family: Segoe Print; font-style: normal; font-weight: bold; font-size: 13px; line-height: 23px; text-align: center; letter-spacing: 0.1em; color: #FFFDFD; text-decoration: none;}
 	
-		 #offslide-btn{display:block;}
-		 #offslide{background:linear-gradient(180deg, rgba(22, 1, 30, 0.92) 98.23%, #263238 99.99%, #263238 100%, #263238 100%), linear-gradient(171.01deg, rgba(248, 4, 4, 0.95) 0%, #2F4F5F 93.15%, #2F4F5F 93.17%); position:fixed; width:100%; top:0%; height:100%; left:-100%; opacity:1; border-radius:0px 0px 0px 0px; display:block; z-index:999;}
-		 #offslide-h1{position:absolute; font-size:19px; letter-spacing:2px; top:13%; left:-70%; font-family:gothic; font-weight:normal; display:none;}
-		 #offslide>button{position:absolute; top:96%; right:3%; }
-		 #offslide-down{position:fixed; bottom: 0%; max-width:100%; height:;  box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.25);}
-		 #offslide-email{position:absolute; width:80%; left:10%; height:27%; top:60%; font-size:12px; text-align:center; background:#004d40; color:white; border-radius:600px 30px 200px 0px; opacity:1; border:2px solid transparent;letter-spacing:3px;}
-		 #hr1{position:absolute; display:none; width:100%; height:25%; background:transparent; top:11%; opacity:1; border-top:1px solid rgba(0,0,0,.05);  border-bottom:1px solid rgba(0,0,0,.05);}
-		 #darkmode{position:absolute; top:32%; left:75%; color:black; width:0%; height:0%; }
 		 
+		 #offslide{background: linear-gradient(180deg, rgba(22, 1, 30, 0.7) 98.23%, #263238 99.99%, #263238 100%, #263238 100%), linear-gradient(171.01deg, rgba(210, 6, 153, 0.95) 0%, rgba(110, 51, 117, 0.980748) 37.7%, #2F4F5F 72.5%, #2F4F5F 93.15%); box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); position:fixed; width:100%; top:0%; height:100%; left:-100%; opacity:1; border-radius:0px 0px 0px 0px; display:block; z-index:999;}
+		 #offslide-down{position:fixed; bottom: 0%; max-width:100%; height:;  box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.25); border:0px solid transparent;}
+		#darkmode{position:absolute; top:32%; left:75%; color:black; width:0%; height:0%; }
 		 
-		 #home{position: absolute; width: 168px; height: 31px; left: 104px; top: 106px; font-family: Segoe Print; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; align-items: center; text-align: center; letter-spacing: 0.1em; color: #FAFDFF; text-decoration:none;}
-		 #painting{position: absolute; width: 168px; height: 32px; left: 104px; top: 170px; font-family: Segoe Print; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:.3; color:  white; text-decoration:none;}
+		 #toplink{position:fixed; width:100%; height:100%; margin-left:6vw; margin-top:-15vw;  box-sizing: border-box;}
+		
+		 #home{position:absolute;  left: 104px; top: 106px; font-family: Segoe Print; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; align-items: center; text-align: center; letter-spacing: 0.1em; opacity:.3; color: #FAFDFF; text-decoration:none;}
+		 #painting{position: absolute;  left: 104px; top: 170px; font-family: Segoe Print; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:.3; color:  white; text-decoration:none;}
 				#down{position:absolute;  height:0%; width:100%; top:43%; left:1.8%; background:white;}
 				#mob-year{position:absolute; top:10.5%; left:40%; display:none; color:black; text-decoration:none; font-weight:bold; letter-spacing:3px; font-size:10px; opacity:.3;}
 				#mob-series{position:absolute; top:65%; left:40%; display:none; color:black; text-decoration:none; font-weight:bold; letter-spacing:3px; font-size:10px; opacity:.3;}
 				#works-span{position:absolute; top:39.6%; right:64%;  color:#00695c; font-size:8px; font-weight:bold; display:none; }
 				#works-span2{position:absolute; top:39.6%; right:64%; color:#00695c; font-size:8px; font-weight:bold; display:none;}
-		 #exhibition{position: absolute; width: 168px; height: 34px; left: 96px; top: 235px; font-family: Segoe Print; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; color:  white; text-decoration:none;}
-		 #profile{position: absolute; width: 168px; height: 34px; left: 96px; top: 302px; font-family: Segoe Print; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:.3; color: white; text-decoration:none;}
-		 #contact{position: absolute; width: 168px; height: 35px; left: 96px; top: 369px;font-family: Segoe Print; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; color:  white; text-decoration:none;}
-		 #home:hover{letter-spacing:0.2em; font-size:20px;}
-		 #painting:hover{letter-spacing:0.2em; font-size:20px;}
-		 #exhibition:hover{letter-spacing:0.2em; font-size:20px;}
-		 #profile:hover{letter-spacing:0.2em; font-size:20px;}
-		 #contact:hover{letter-spacing:0.2em; font-size:20px;}
+		 #exhibition{position: absolute;  left: 96px; top: 235px; font-family: Segoe Print; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:.3; color:  white; text-decoration:none;}
+		 #profile{position: absolute; left: 96px; top: 302px; font-family: Segoe Print; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:.3; color: white; text-decoration:none;}
+		 #contact{position: absolute; left: 96px; top: 369px;font-family: Segoe Print; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:.3; color:  white; text-decoration:none;}
+		 #home:hover{letter-spacing:0.2em; font-size:20px; opacity: 1;}
+		 #painting:hover{letter-spacing:0.2em; font-size:20px; opacity: 1;}
+		 #exhibition:hover{letter-spacing:0.2em; font-size:20px; opacity: 1;}
+		 #profile:hover{letter-spacing:0.2em; font-size:20px; opacity: 1;}
+		 #contact:hover{letter-spacing:0.2em; font-size:20px; opacity: 1;}
 	
 		
-	#news-trigger{position:absolute; top:70%; right:10%; font-size:22px; color:#00695c; opacity:.3;}
 	
-	
-	h1{top:-5%; left:2%; font-size:15px; display:none;}
-	
-	
-	#topfloor{position:fixed; top:7%; right:26%; width:25px; height:25px; display:none;}
-	#topfloor>div{width:14px; height:2px; margin-top:4px; margin-left:4px;}
-	
-	#topfloor2{left:6.8%; top:1.3%; display:none;}
 	
 	#downbar{height:25%; background:transparent; display:none;}
 	
-	#fb{top:-100%; left:40%; position:absolute; display:none; opacity:0;}
-	#ig{top:-100%; left:48%; position:absolute; display:none; opacity:0;}
-	#wa{top:82%; left:56%; position:absolute; display:none; opacity:0;}
 	
 	
-		 
-	
-	#socialslide{display:none;}
-	
-	#menubarr{position:fixed; width:100%; height:20%; top:80%; display: none;}
+	#menubarr{ display: none;}
 	#menubar{display:none;}
 	
-	#newsletter{position:fixed; top:330px; left:50px; font-weight:bold; letter-spacing:2px; font-size:13px; color:black; opacity:.3; text-decoration:none; display:none;}
-	#newsletter:hover{letter-spacing:10px; font-size:18px; opacity:1;}
-	#mail{position:absolute; top:59%; left:70%; display:none;}
-	#newsletter-modal{position:absolute; height:100%; width:100%; background:linear-gradient(teal 13%, white 5%); top:0%; left:0%;}
-	#newsletter-modal>img{position:absolute; height:100%; width:100%; display:none; filter:grayscale(1) brightness(50%); }
-	#newsletter-form{position:fixed; background:white; width:100%; height:100%; left:0%; top:0%; display:none; }
-	#slide1{position:absolute; left:0%; width:100%; top:18%; background:transparent; display:none; border-radius:0px 0px 5px 5px; overflow:hidden;}
-	#news-roll{position:absolute; height:0%; width:60%;  top:0%; left:20%; box-shadow:0px .8px 18px 2px rgba(0,0,0,.1); border-radius:0px 0px 18px 18px;}	
-	#sign-in{position:absolute; background:white; z-index:9999;  top:45%; left:45%; width:10%; height:10%;}
-	#email-sub{position:absolute; z-index:999; top:0%; left:15.5%; font-size:13px; font-weight:bold;  width:84.3%; height:100%; letter-spacing:3px; text-align:center; color:rgba(0,0,0,1); background:rgba(0,0,0,.1); overflow:scroll; border-radius:60px 20px 20px 60px;}
-	#btn-sub{position:absolute; z-index:999; top:3%; left:1%; opacity:1; background:transparent; color:teal; border:transparent; width:10%; height:10%;}
-	#cancel{position:absolute; z-index:999; top:90.5%; right:1%;}
-	#email-sub1{display:none;}
-	#btn-sub1{display:none;}
+	
 	
 	}
 
 
-
-
-
+@media screen and  (min-width: 280px) and (max-width: 319px) and (orientation: portrait){
+	#toplink{margin-top:-5vw; margin-left:0vw;}
+}
 
 
 
 /* iphones -------*/
+@media screen and  (min-width: 360px) and (orientation: portrait){
+	#toplink{margin-top:-5vw; margin-left:12vw;}
+}
 
+@media screen and  (min-width: 410px) and (orientation: portrait){
+	#toplink{margin-top:0vw; margin-left:17.5vw;}
+}
+
+@media screen and  (min-height: 812px) and (orientation: portrait){
+	#toplink{margin-top:20vw; margin-left:12vw;}
+}
