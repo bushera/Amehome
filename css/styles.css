@@ -64,7 +64,7 @@ main{display:none;}
 #showbar{display:none;}
 
 #desktop-topimg{display:block;}
-#ameh-logo{display:block;}
+#ameh-logo{display:none;}
 
 
 #landscape-text{position:absolute; display:none;}
@@ -214,10 +214,11 @@ main{display:none;}
 	
 		 
 		 #offslide{background: linear-gradient(180deg, rgba(22, 1, 30, 0.7) 98.23%, #263238 99.99%, #263238 100%, #263238 100%), linear-gradient(171.01deg, rgba(210, 6, 153, 0.95) 0%, rgba(110, 51, 117, 0.980748) 37.7%, #2F4F5F 72.5%, #2F4F5F 93.15%); box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); position:fixed; width:100%; top:0%; height:100%; left:-100%; opacity:1; border-radius:0px 0px 0px 0px; display:block; z-index:999;}
-		 #offslide-down{position:fixed; bottom: 0%; max-width:100%; height:;  box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.25); border:0px solid transparent;}
-		#darkmode{position:absolute; top:32%; left:75%; color:black; width:0%; height:0%; }
+		 #offslide-down{position:fixed; bottom: 0%; max-width:100%; height:;  box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.25); border:0px solid transparent; opacity:.46; display: none;}
+		 #offslide-down-1{position:fixed;  height:15%; background:white; bottom:-108%; width:0%; right:0%; border-radius:600px 30px 30px 0px; opacity:.05 }
+		 #darkmode{position:absolute; top:32%; left:75%; color:black; width:0%; height:0%; }
 		 
-		 #toplink{position:fixed; width:100%; height:100%; margin-left:6vw; margin-top:-15vw;  box-sizing: border-box;}
+		 #toplink{position:fixed; width:100%; height:100%; margin-left:6vw; margin-top:-5vw;  box-sizing: border-box;}
 		
 		 #home{position:absolute;  left: 104px; top: 106px; font-family: Segoe Print; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; align-items: center; text-align: center; letter-spacing: 0.1em; opacity:.3; color: #FAFDFF; text-decoration:none;}
 		 #painting{position: absolute;  left: 104px; top: 170px; font-family: Segoe Print; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:.3; color:  white; text-decoration:none;}
@@ -251,20 +252,20 @@ main{display:none;}
 
 
 @media screen and  (min-width: 280px) and (max-width: 319px) and (orientation: portrait){
-	#toplink{margin-top:-5vw; margin-left:0vw;}
+	#toplink{margin-top:5vw; margin-left:2vw;}
 }
 
 
 
 /* iphones -------*/
 @media screen and  (min-width: 360px) and (orientation: portrait){
-	#toplink{margin-top:-5vw; margin-left:12vw;}
+	#toplink{margin-top:5vw; margin-left:13vw;}
 }
 
 @media screen and  (min-width: 410px) and (orientation: portrait){
-	#toplink{margin-top:0vw; margin-left:17.5vw;}
+	#toplink{margin-top:12vw; margin-left:17.5vw;}
 }
 
 @media screen and  (min-height: 812px) and (orientation: portrait){
-	#toplink{margin-top:20vw; margin-left:12vw;}
+	#toplink{margin-top:25vw; margin-left:14vw;}
 }
