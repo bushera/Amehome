@@ -1,9 +1,10 @@
 
+
 $(function(){
 		
 		
 	$("main").show();
-	$("#preload-page").delay(5000).fadeOut(1000);
+	$("#preload-page").delay(3800).fadeOut(1200);
 
 
 
@@ -17,9 +18,9 @@ $(function(){
 
 	$("#menu-btn").click(function(){
 		$("#close-trigger").css("display", "block");
-		$("#offslide").animate({left: "0%"}, 500);
-		$("#slider").animate({left: "-100%"}, 700);
-		$("#showbar").animate({left: "-100%"}, 700);
+		$("#offslide").animate({left: "0%"}, 600);
+		$("#slider").animate({left: "-100%"}, 800);
+		$("#showbar").animate({left: "-100%"}, 800);
 		$("#menu-btn").css("display", "none");
 		$("#offslide-h1").animate({left: "15%"} ,900);
 		$("#offslide-down-1").animate({bottom: "0%"} ,200);
@@ -28,7 +29,7 @@ $(function(){
 	});
 
 	$("#close-trigger").click(function(){
-		$("#offslide").animate({left: "-100%"}, 500);
+		$("#offslide").animate({left: "-100%"}, 600);
 		$("#menu-btn").css("display", "block");
 		$("#slider").animate({left: "0%"}, 500);
 		$("#showbar").animate({left: "0%"}, 500);
@@ -50,6 +51,8 @@ $(function(){
 	
 
 });
+
+
 
 
 
