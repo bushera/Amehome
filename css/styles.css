@@ -2,6 +2,8 @@ body {margin:0; padding: 0; box-sizing: border-box;}
 
 main{display:none;}
 
+
+
 #preload-page{position:fixed; top:0%; left:0%; width:100%; height:100vh; background:#110117; display:block; z-index:9999; overflow:hidden;  }
 #logo {position: absolute; left:50%; top: 50%;  transform: translate(-40%, -50%); animation: fill 1.5s ease forwards 3s;}
 #logo path:nth-child(1){
@@ -463,27 +465,28 @@ main{display:none;}
 		 
 		 
 		 #offslide{background: white; position:fixed; width:100%; top:0%; height:100%; left:-100%; opacity:1; border-radius:0px 0px 0px 0px; display:block; z-index:999;}
-		 #offslide-down-1{position:fixed;  height:15%; background:#110117; bottom:-108%; width:0%; right:0%; border-radius:600px 30px 30px 0px; opacity:1; }
+		 #offslide-down-1{position:fixed;  height:20%; background:#110117; bottom:-108%; width:0%; right:0%; border-radius:600px 30px 30px 0px; opacity:1; }
 		 #darkmode{position:absolute; top:32%; left:75%; color:black; width:0%; height:0%; }
 		 
 		 #toplink{position:fixed; width:100%; height:100%; margin-left:6vw; margin-top:-5vw;  box-sizing: border-box;}
-		
-		 #home{position:absolute;  left: 104px; top: 106px; font-family: Segoe Print; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; align-items: center; text-align: center; letter-spacing: 0.1em; opacity:1; color: #110117; text-decoration:none;}
-		 #painting{position: absolute;  left: 104px; top: 170px; font-family: Segoe Print; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:1; color:  #110117; text-decoration:none;}
+   
+		 #home{position:absolute;  left: 96px; top: 90px; font-family:sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; align-items: center; text-align: center; letter-spacing: 0.1em; opacity:1; color: #110117; text-decoration:none;}
+		 #painting{position: absolute;  left: 96px; top: 140px; font-family:sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:1; color:  #110117; text-decoration:none;}
 				#down{position:absolute;  height:0%; width:100%; top:43%; left:1.8%; background:white;}
 				#mob-year{position:absolute; top:10.5%; left:40%; display:none; color:black; text-decoration:none; font-weight:bold; letter-spacing:3px; font-size:10px; opacity:.3;}
 				#mob-series{position:absolute; top:65%; left:40%; display:none; color:black; text-decoration:none; font-weight:bold; letter-spacing:3px; font-size:10px; opacity:.3;}
 				#works-span{position:absolute; top:39.6%; right:64%;  color:#00695c; font-size:8px; font-weight:bold; display:none; }
 				#works-span2{position:absolute; top:39.6%; right:64%; color:#00695c; font-size:8px; font-weight:bold; display:none;}
-		 #exhibition{position: absolute;  left: 96px; top: 235px; font-family: Segoe Print; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:1; color: #110117; text-decoration:none;}
-		 #profile{position: absolute; left: 96px; top: 302px; font-family: Segoe Print; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:1; color: #110117; text-decoration:none;}
-		 #contact{position: absolute; left: 96px; top: 369px;font-family: Segoe Print; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:1; color: #110117; text-decoration:none;}
+		 #exhibition{position: absolute;  left: 96px; top: 190px; font-family:sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:1; color: #110117; text-decoration:none;}
+		 #profile{position: absolute; left: 96px; top: 240px; font-family:sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:1; color: #110117; text-decoration:none;}
+		 #contact{position: absolute; left: 96px; top: 290px;font-family:sans-serif; font-style: normal; font-weight: normal; font-size: 18px; line-height: 32px; text-align: center; letter-spacing: 0.1em; opacity:1; color: #110117; text-decoration:none;}
 		 #home:hover{letter-spacing:0.2em; font-size:20px; opacity: 1;}
 		 #painting:hover{letter-spacing:0.2em; font-size:20px; opacity: 1;}
 		 #exhibition:hover{letter-spacing:0.2em; font-size:20px; opacity: 1;}
 		 #profile:hover{letter-spacing:0.2em; font-size:20px; opacity: 1;}
 		 #contact:hover{letter-spacing:0.2em; font-size:20px; opacity: 1;}
-	
+	 
+	 
 		
 	
 	
