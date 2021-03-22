@@ -9,7 +9,7 @@ $(function(){
 
 
 	
-	
+	$('.tlt').textillate({ in: { effect: 'rollIn', delayScale : 4, delay : 30,} });
 	
 
 	
@@ -21,7 +21,7 @@ $(function(){
 		$("#offslide").animate({left: "0%"}, 600);
 		$("#slider").animate({left: "-100%"}, 800);
 		$("#showbar").animate({left: "-100%"}, 800);
-		$("#menu-btn").css("display", "none");
+		$(".navbar-house").animate({right: "-100%"}, 500);
 		$("#offslide-h1").animate({left: "15%"} ,900);
 		$("#offslide-down-1").animate({bottom: "0%"} ,200);
 		$("#offslide-down-1").animate({width: "100%"} ,400);
@@ -30,7 +30,7 @@ $(function(){
 
 	$("#close-trigger").click(function(){
 		$("#offslide").animate({left: "-100%"}, 600);
-		$("#menu-btn").css("display", "block");
+		$(".navbar-house").animate({right: "0%"}, 400);
 		$("#slider").animate({left: "0%"}, 500);
 		$("#showbar").animate({left: "0%"}, 500);
 		$("#offslide-h1").animate({left: "-70%"}, 900);

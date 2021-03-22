@@ -438,13 +438,14 @@ main{display:none;}
 	
 	
 	
-		 #preload-page{width:100%; height:100%; display:block; background: #110117; align-items: center; justify-content: center; z-index:9999;}
+		 #preload-page{width:100%; height:100%; display:none; background: #110117; align-items: center; justify-content: center; z-index:9999;}
 		 #logo{position: absolute; width:150px; height:150px; left:50%; top: 50%; transform: translate(-50%, -50%);}
 		 
 		.preloader16{width:25px; left:47%; top:88%;}
 		.preloader16 span{width:8px; height:8px ;}
 		
 	
+		.tlt{position:absolute; color:white; font-size: 12px; letter-spacing: 3px; font-family: cursive; top:40%; left:50%; transform: translate(-50%, -100%);}
 	
 	
 	
@@ -461,7 +462,8 @@ main{display:none;}
 		 #showbar{position: fixed; width: 100%; height: 100%; left: 0px; top: 0%; background:#110117;}
 		 #close-trigger{position:absolute;  top:2%; right:5%; color:#110117; display:none;}
 		 
-		 #menu-btn{position: absolute; width: 107px; height: 23px; right: -8%; top: 1%; font-family: Segoe Print; font-style: normal; font-weight: bold; font-size: 13px; line-height: 23px; text-align: center; letter-spacing: 0.1em; color: #FFFDFD; text-decoration:none;} 
+		 .navbar-house{position: absolute; width:22%; height:5%; background: #0CF6E8; right: 0%; top:0%; border-radius: 50px 10px 10px 50px; box-shadow: 100px 100px 1800px rgba(12, 246, 232, .8); z-index: 99;}
+		 #menu-btn{position: absolute; width: 107px; height: 23px; right: -55%; top: 1%; font-family: Segoe Print; font-style: normal; font-weight: bold; font-size: 13px; line-height: 23px; text-align: center; letter-spacing: 0.1em; color: #110117; text-decoration:none; z-index: 999;} 
 		 
 		 
 		 #offslide{background: white; position:fixed; width:100%; top:0%; height:100%; left:-100%; opacity:1; border-radius:0px 0px 0px 0px; display:block; z-index:999;}
@@ -504,6 +506,7 @@ main{display:none;}
 
 @media screen and  (min-width: 280px) and (max-width: 319px) and (orientation: portrait){
 	#toplink{margin-top:5vw; margin-left:2vw;}
+	#menu-btn{right:-58%; top:8%;}
 }
 
 
@@ -511,12 +514,15 @@ main{display:none;}
 /* iphones -------*/
 @media screen and  (min-width: 360px) and (orientation: portrait){
 	#toplink{margin-top:5vw; margin-left:13vw;}
+	#menu-btn{right:-50%; top:8%;}
 }
 
 @media screen and  (min-width: 410px) and (orientation: portrait){
 	#toplink{margin-top:12vw; margin-left:17.5vw;}
+	#menu-btn{right:-42%; top:10%;}
 }
 
 @media screen and  (min-height: 812px) and (orientation: portrait){
 	#toplink{margin-top:25vw; margin-left:14vw;}
+	#menu-btn{right:-48%; top:17%;}
 }
