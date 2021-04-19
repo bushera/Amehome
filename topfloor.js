@@ -4,15 +4,40 @@ $(function(){
 		
 		
 	$("main").show();
-	$("#preload-page").delay(3800).fadeOut(1200);
+	$("#preload-page").delay(3600).fadeOut(1200);
 
 
 
 	
-	$('.tlt').textillate({ in: { effect: 'rollIn', delayScale : 4, delay : 30,} });
+	$('.tlt').textillate({ loop:true,
+		 in:{effect: 'fadeInDownBig', delayScale: 5, delay: 20, sequence: true, },
+		 out: {effet: 'bounceOut', delayScale: 5, delay: 20, reverse: true,}
+		});
 	
 
 	
+	
+
+
+
+	$("#desktop-menubtn").click(function(){
+		$("#menubar").animate({right: "10%"}, 1000);
+		$("#desktop-menubtn").css("display", "none");
+		$("#desktop-menubtn-2").css("display", "block");
+		$("#desktop-menubtn").off(click);
+	});
+
+	$("#desktop-menubtn-2").click(function(){
+		$("#menubar").animate({right: "-50%"}, 1000);
+		$("#desktop-menubtn-2").css("display", "none");
+		$("#desktop-menubtn").css("display", "block");
+		$("#desktop-menubtn").off(click);
+	});
+
+	
+
+
+
 	
 	
 
@@ -39,6 +64,27 @@ $(function(){
 		$("#offslide-down-1").animate({width: "0%"} ,300);
 		$("#close-trigger").off(click);
 	});
+
+
+
+	$(".circle-overlay").mouseenter(function(){
+		
+		$(".note-pad").animate({right: "10%"}, 1000);
+		$(".circle-overlay").animate({right: "-50%"}, 1000);
+		
+	});
+
+	$(".circle-overlay").mouseleave(function(){
+		
+		$(".note-pad").animate({right: "-100%"}, 800);
+		$(".circle-overlay").animate({right: "4%"}, 800);
+		
+	});
+
+	
+
+
+	
 
 
 	
