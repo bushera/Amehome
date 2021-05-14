@@ -301,11 +301,11 @@ main{display:none;}
 #ameh-logo{position:fixed; right:-3%; top:58%; display:none;}
 h1{position: absolute; text-align: center; font-size:12px; font-family: 'Poppins', sans-serif; font-weight: 300; top:84%; left:51.5%; transform: translate(-50%,-60%); letter-spacing: 2px; color: #110117;}
 
-.twitter-overlay{position:absolute; width:35px; height:35px; top:90%; left:46%; background: #110117; border-radius: 50px;}
+.twitter-overlay{position:absolute; width:35px; height:35px; top:90%; left:46%; background: #110117; box-shadow: -12px -9px 16px rgba(255, 255, 255, 0.3), 12px 9px 16px rgba(28, 9, 59, 0.3); border-radius: 50px;}
 .fa-twitter{position:absolute;  color:white; font-size: 18px;}
-.facebook-overlay{position:absolute; width:35px; height:35px; top:90%; left:50%; background: #110117; border-radius: 50px;}
+.facebook-overlay{position:absolute; width:35px; height:35px; top:90%; left:50%; background: #110117; box-shadow: -12px -9px 16px rgba(255, 255, 255, 0.3), 12px 9px 16px rgba(28, 9, 59, 0.3); border-radius: 50px;}
 .fa-facebook-f{position:absolute;  color:white; font-size: 20px;}
-.instagram-overlay{position:absolute; width:35px; height:35px; top:90%; left:54%; background: #110117; border-radius: 50px;}
+.instagram-overlay{position:absolute; width:35px; height:35px; top:90%; left:54%; background: #110117; box-shadow: -12px -9px 16px rgba(255, 255, 255, 0.3), 12px 9px 16px rgba(28, 9, 59, 0.3); border-radius: 50px;}
 .fa-instagram{position:absolute;  color:white; font-size: 20px;}
 
 
@@ -463,7 +463,7 @@ h1{position: absolute; text-align: center; font-size:12px; font-family: 'Poppins
 		 #close-trigger{position:absolute;  top:2%; right:5%; color:#110117; display:none;}
 		 
 		 
-		 .navbar-sidebar{position: absolute; top:0%; left: 0%; width:11%;  height: 100%; background: #0CF6E8; border-radius:0px 4px 4px 0px;}
+		 .navbar-sidebar{position: absolute; top:0%; left: 0%; width:11%;  height: 100%; background: white; border-radius:0px 4px 4px 0px; }
 		 .navbar-sidebar img{position: absolute; right:-25%; top: 18%;}
 		 .navbar-sidebar #menu-btn {position: absolute; top:20%; right:65%; width: 107px; height:23px; z-index: 9999; }
 
