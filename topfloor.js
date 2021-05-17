@@ -3,8 +3,8 @@
 $(function(){
 		
 		
-	$("main").show();
-	$("#preload-page").delay(3000).fadeOut(3000);
+	/*$("main").show();
+	$("#preload-page").delay(3000).fadeOut(3000);*/
 
 
 
