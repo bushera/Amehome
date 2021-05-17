@@ -7,7 +7,8 @@ main{display:none;}
 
 
 #preload-page{position:fixed; top:0%; left:0%; width:100%; height:100vh; background:#110117; display:block; z-index:9999; overflow:hidden;  }
-#logo {position: absolute; left:50%; top: 50%;  transform: translate(-40%, -50%); animation: fill 1.5s ease forwards 3s;}
+#logo-icon {display: block; position: absolute; left:31%;  top:48%;}
+#logo {position: absolute; left:52%; top: 50%;  transform: translate(-40%, -50%); animation: fill 1s ease forwards 3s;}
 #logo path:nth-child(1){
 	stroke-dasharray: 129; stroke-dashoffset: 129; animation: line-anim 1.5s ease forwards;
 } 
@@ -47,7 +48,7 @@ main{display:none;}
 
 
 .preloader16 {
-	display: block;
+	display: none;
 	height: 50px;
 	width: 50px;
 	position: absolute;
@@ -441,9 +442,10 @@ h1{position: absolute; text-align: center; font-size:12px; font-family: 'Poppins
 	
 	
 		 #preload-page{width:100%; height:100%; display:block; background: #110117; align-items: center; justify-content: center; z-index:9999;}
-		 #logo{position: absolute; width:150px; height:150px; left:50%; top: 50%; transform: translate(-50%, -50%);}
-		 
-		.preloader16{width:25px; left:47%; top:88%;}
+		 #logo{position: absolute; width:150px; height:150px; left:58%; top: 50%; transform: translate(-50%, -50%);}
+		 #logo-icon {display: block; position: absolute; left:22%;  top:46%; width: 40px; height: 40px;}
+
+		.preloader16{width:25px; left:47%; top:88%; }
 		.preloader16 span{width:8px; height:8px ;}
 		
 	
@@ -510,6 +512,8 @@ h1{position: absolute; text-align: center; font-size:12px; font-family: 'Poppins
 @media screen and  (min-width: 280px) and (max-width: 319px) and (orientation: portrait){
 	#toplink{margin-top:5vw; margin-left:2vw;}
 	#menu-btn{right:-58%; top:8%;}
+	#logo-icon {display: block; position: absolute; left:17.5%;  top:47%;}
+
 }
 
 
@@ -518,16 +522,22 @@ h1{position: absolute; text-align: center; font-size:12px; font-family: 'Poppins
 @media screen and  (min-width: 360px) and (orientation: portrait){
 	#toplink{margin-top:10vw; margin-left:13vw;}
 	#menu-btn{right:-50%; top:8%;}
+	#logo-icon {display: block; position: absolute; left:25%;  top:46.8%;}
+
 }
 
 @media screen and  (min-width: 410px) and (orientation: portrait){
 	#toplink{margin-top:12vw; margin-left:17.5vw;}
 	#menu-btn{right:-42%; top:10%;}
+	#logo-icon {display: block; position: absolute; left:30%;  top:47.2%;}
+
 }
 
 @media screen and  (min-height: 812px) and (orientation: portrait){
 	#toplink{margin-top:25vw; margin-left:14vw;}
 	#menu-btn{right:-48%; top:17%;}
+	#logo-icon {display: block; position: absolute; left:26%;  top:47.4%;}
+
 }
 
 
