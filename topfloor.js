@@ -3,13 +3,13 @@
 $(function(){
 		
 		
-	/*$("main").show();
-	$("#preload-page").delay(3000).fadeOut(3000);*/
+	$("main").show();
+	$("#preload-page").delay(3000).fadeOut(3000);
 
 
 
 	
-	$('.tlt').textillate({ loop:true,
+/*	$('.tlt').textillate({ loop:true,
 		 in:{effect: 'fadeInDownBig', delayScale: 5, delay: 20, sequence: true, },
 		 out: {effet: 'bounceOut', delayScale: 5, delay: 20, reverse: true,}
 		});
@@ -79,7 +79,7 @@ $(function(){
 		$(".note-pad").animate({right: "-100%"}, 800);
 		$(".circle-overlay").animate({right: "4%"}, 800);
 		
-	});
+	});*/
 
 	
 
