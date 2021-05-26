@@ -30,6 +30,7 @@ $smcolor: white;
 @media screen and  (max-width: 480px) and (orientation: portrait){ 
 
     
+   
     
 	
 	main{display:none;}
@@ -50,17 +51,17 @@ $smcolor: white;
         .amehegwuh-mobile{ position: absolute; background: transparent; @include fluid();
             
             .top-box{background: $bgcolor; @include fluid(); 
-                    .amehegwuh{position: absolute; z-index:99; @include centered(); top:50%; display: none;}
+                    .amehegwuh{position: absolute; z-index:99; @include centered(); top:50%; display:block;}
 
 
 
                   
                     .phone {
+                        display: none;
                         background: white;
                         padding: .5em;
                         width: 80%;
-                        height: 50%;
-                        top: 50%;
+                        top: 80%;
                         border-radius: 1.5em;
                         position: relative;
                         transform: rotateZ(0deg);
@@ -120,19 +121,79 @@ $smcolor: white;
 
                        
                     }
+
+
+                    h1{position: absolute; top:20%; left:5%; width: 100%; font-size: 44px; font-weight: bold; color: $smcolor; letter-spacing: 2px; }
+                    h2{position: absolute; top:42%; left:5%; width: 100%; font-size: 10px; font-weight: normal; color: $smcolor; letter-spacing: 1px; }
+
+
+.text-cover{position: absolute; height: 2em; width: 65%; left:22%; top:54%; overflow: hidden; 
+ .item-1, 
+.item-2, 
+.item-3 {
+	position: absolute;
+  display: block;
+  left: 0%;
+  font-size: 8px;
+  font-weight:lighter;
+  letter-spacing: 1px;
+  color:$smcolor;
+
+	animation-duration: 16s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { top: 100%; opacity: 0; }
+  8.3%,25% { top: 25%; opacity: 1; }
+  33.33%, 100% { top: -110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { top: 100%; opacity: 0; }
+  41.63%, 58.29% { top: -45%; opacity: 1; }
+  66.66%, 100% { top: -110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { top: 100%; opacity: 0; }
+  74.96%, 91.62% { top: -45%; opacity: 1; }
+  100% { top: -110%; opacity: 0; }
+}
+
+}
+
+                      
                     
                     
             }
 
-            .img-holder{position: absolute; top:100%; width: 100%; height:67%; background: $bgcolor; 
-                .holder{@include fluid(); background: $bgcolor; opacity:.90; z-index:9;}
+            .img-holder{position: absolute; top:100%; width: 100%; height:66%; background: $bgcolor; 
+                .holder{@include fluid(); background: $bgcolor; opacity:.1; z-index:9;}
                 img{@include fluid(); max-width: 100vw; }
             }
 
             .spiral-vector-front{position: absolute; max-width: 100vw; top:145%; z-index: 999;}
-            .spiral-vector-back{position: absolute; max-width: 100vw; top:148%; z-index:99 ;}
+            .spiral-vector-back{position: absolute; max-width: 100vw; top:147.5%; z-index:99 ;}
             
-            .profile{position: absolute; width: 100%; height: 120%; top:176%; background: $smcolor; z-index: 999;}
+            .profile{position: absolute; width: 100%; height: 120%; top:175%; background: $smcolor; z-index: 999; overflow: scroll;
+                .text-holder{position: absolute; width: 80%; top:0%; left:10%;   
+                    p{line-height: 30px; font-size: 12px; color: #110117; opacity: .5;  display: flex; align-self: stretch; letter-spacing: 0.1em;}
+                }
+            }
         
         
         }

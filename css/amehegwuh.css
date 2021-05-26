@@ -183,14 +183,14 @@
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     top: 50%;
-    display: none;
+    display: block;
   }
   .amehegwuh-mobile .top-box .phone {
+    display: none;
     background: white;
     padding: .5em;
     width: 80%;
-    height: 50%;
-    top: 50%;
+    top: 80%;
     border-radius: 1.5em;
     position: relative;
     -webkit-transform: rotateZ(0deg);
@@ -245,11 +245,152 @@
     border: .2em solid white;
     background-color: #110117;
   }
+  .amehegwuh-mobile .top-box h1 {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 100%;
+    font-size: 44px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+  }
+  .amehegwuh-mobile .top-box h2 {
+    position: absolute;
+    top: 42%;
+    left: 5%;
+    width: 100%;
+    font-size: 10px;
+    font-weight: normal;
+    color: white;
+    letter-spacing: 1px;
+  }
+  .amehegwuh-mobile .top-box .text-cover {
+    position: absolute;
+    height: 2em;
+    width: 65%;
+    left: 22%;
+    top: 54%;
+    overflow: hidden;
+  }
+  .amehegwuh-mobile .top-box .text-cover .item-1,
+  .amehegwuh-mobile .top-box .text-cover .item-2,
+  .amehegwuh-mobile .top-box .text-cover .item-3 {
+    position: absolute;
+    display: block;
+    left: 0%;
+    font-size: 8px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: white;
+    -webkit-animation-duration: 16s;
+            animation-duration: 16s;
+    -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+  .amehegwuh-mobile .top-box .text-cover .item-1 {
+    -webkit-animation-name: anim-1;
+            animation-name: anim-1;
+  }
+  .amehegwuh-mobile .top-box .text-cover .item-2 {
+    -webkit-animation-name: anim-2;
+            animation-name: anim-2;
+  }
+  .amehegwuh-mobile .top-box .text-cover .item-3 {
+    -webkit-animation-name: anim-3;
+            animation-name: anim-3;
+  }
+  @-webkit-keyframes anim-1 {
+    0%, 8.3% {
+      top: 100%;
+      opacity: 0;
+    }
+    8.3%, 25% {
+      top: 25%;
+      opacity: 1;
+    }
+    33.33%, 100% {
+      top: -110%;
+      opacity: 0;
+    }
+  }
+  @keyframes anim-1 {
+    0%, 8.3% {
+      top: 100%;
+      opacity: 0;
+    }
+    8.3%, 25% {
+      top: 25%;
+      opacity: 1;
+    }
+    33.33%, 100% {
+      top: -110%;
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes anim-2 {
+    0%, 33.33% {
+      top: 100%;
+      opacity: 0;
+    }
+    41.63%, 58.29% {
+      top: -45%;
+      opacity: 1;
+    }
+    66.66%, 100% {
+      top: -110%;
+      opacity: 0;
+    }
+  }
+  @keyframes anim-2 {
+    0%, 33.33% {
+      top: 100%;
+      opacity: 0;
+    }
+    41.63%, 58.29% {
+      top: -45%;
+      opacity: 1;
+    }
+    66.66%, 100% {
+      top: -110%;
+      opacity: 0;
+    }
+  }
+  @-webkit-keyframes anim-3 {
+    0%, 66.66% {
+      top: 100%;
+      opacity: 0;
+    }
+    74.96%, 91.62% {
+      top: -45%;
+      opacity: 1;
+    }
+    100% {
+      top: -110%;
+      opacity: 0;
+    }
+  }
+  @keyframes anim-3 {
+    0%, 66.66% {
+      top: 100%;
+      opacity: 0;
+    }
+    74.96%, 91.62% {
+      top: -45%;
+      opacity: 1;
+    }
+    100% {
+      top: -110%;
+      opacity: 0;
+    }
+  }
   .amehegwuh-mobile .img-holder {
     position: absolute;
     top: 100%;
     width: 100%;
-    height: 67%;
+    height: 66%;
     background: #110117;
   }
   .amehegwuh-mobile .img-holder .holder {
@@ -257,7 +398,7 @@
     width: 100%;
     height: 100%;
     background: #110117;
-    opacity: .90;
+    opacity: .1;
     z-index: 9;
   }
   .amehegwuh-mobile .img-holder img {
@@ -275,16 +416,35 @@
   .amehegwuh-mobile .spiral-vector-back {
     position: absolute;
     max-width: 100vw;
-    top: 148%;
+    top: 147.5%;
     z-index: 99;
   }
   .amehegwuh-mobile .profile {
     position: absolute;
     width: 100%;
     height: 120%;
-    top: 176%;
+    top: 175%;
     background: white;
     z-index: 999;
+    overflow: scroll;
+  }
+  .amehegwuh-mobile .profile .text-holder {
+    position: absolute;
+    width: 80%;
+    top: 0%;
+    left: 10%;
+  }
+  .amehegwuh-mobile .profile .text-holder p {
+    line-height: 30px;
+    font-size: 12px;
+    color: #110117;
+    opacity: .5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: stretch;
+        align-self: stretch;
+    letter-spacing: 0.1em;
   }
   #landscape-page {
     display: none;
