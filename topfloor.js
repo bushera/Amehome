@@ -9,7 +9,18 @@ $(function(){
 	$("main").show();
 	$("#preload-page").delay(3000).fadeOut(3000);
 
+		
 
+
+	$("main").show(function(){
+		$(".amehegwuh").css("display", "block");
+	});
+
+
+
+	$(".dropdown-form").click(function(){
+	
+	})
 
 	
 /*	$('.tlt').textillate({ loop:true,
@@ -100,6 +111,7 @@ $(function(){
 	
 
 });
+
 
 
 

@@ -126,47 +126,62 @@
     display: none;
   }
   #preload-page {
+    width: 100%;
+    height: 100%;
     display: none;
-    background: white;
-    position: fixed;
-    width: 100%;
-    height: 100%;
+    background: #110117;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    z-index: 99999;
   }
-  #preload-page .preload-box {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(171.62deg, rgba(255, 255, 255, 0.8645) 15.65%, rgba(255, 255, 255, 0.4845) 93.54%);
-    -webkit-box-shadow: 20px 20px 100px rgba(17, 1, 23, 0.1);
-            box-shadow: 20px 20px 100px rgba(17, 1, 23, 0.1);
-    -webkit-backdrop-filter: blur(50px);
-            backdrop-filter: blur(50px);
-  }
-  #preload-page .preload-box img {
+  #preload-page #logo {
     position: absolute;
+    width: 150px;
+    height: 150px;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    left: 44%;
-    top: 44%;
-    width: 150px;
-    height: 150px;
-  }
-  #preload-page .preload-box .menu {
-    position: absolute;
-    top: 80%;
-    margin: 25px;
-  }
-  #preload-page .preload-box .menu form {
-    margin-left: 10px;
   }
   .amehegwuh-mobile {
-    position: absolute;
-    background: transparent;
+    background: #110117;
     position: absolute;
     width: 100%;
     height: 100%;
+    display: block;
+  }
+  .amehegwuh-mobile #menubar {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 8%;
+    background: linear-gradient(171.62deg, rgba(255, 255, 255, 0.8918) 15.65%, rgba(255, 255, 255, 0.4998) 93.54%);
+    -webkit-box-shadow: 20px 20px 100px rgba(17, 1, 23, 0.1);
+            box-shadow: 20px 20px 100px rgba(17, 1, 23, 0.1);
+    -webkit-backdrop-filter: blur(50px);
+            backdrop-filter: blur(50px);
+    z-index: 9999;
+    display: none;
+  }
+  .amehegwuh-mobile #menubar img {
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    width: 15px;
+    height: 15px;
+  }
+  .amehegwuh-mobile #menubar h1 {
+    position: absolute;
+    top: -50%;
+    left: 49%;
+    font-size: 10px;
+    font-weight: bold;
+    color: #110117;
+    letter-spacing: .6em;
   }
   .amehegwuh-mobile .top-box {
     background: #110117;
@@ -183,87 +198,23 @@
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
     top: 50%;
-    display: block;
-  }
-  .amehegwuh-mobile .top-box .phone {
     display: none;
-    background: white;
-    padding: .5em;
-    width: 80%;
-    top: 80%;
-    border-radius: 1.5em;
-    position: relative;
-    -webkit-transform: rotateZ(0deg);
-            transform: rotateZ(0deg);
-    -webkit-box-shadow: -30px 30px 0px rgba(0, 0, 0, 0.1);
-            box-shadow: -30px 30px 0px rgba(0, 0, 0, 0.1);
+  }
+  .amehegwuh-mobile .top-box .menu-btn {
     position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-  }
-  .amehegwuh-mobile .top-box .phone:before {
-    content: " ";
-    position: absolute;
-    background-color: #110117;
-    border-radius: .6em;
-    padding: .3em;
-    width: 40%;
-    top: -5px;
-    left: 30%;
-  }
-  .amehegwuh-mobile .top-box .square-group {
-    display: -ms-grid;
-    display: grid;
-        grid-template-areas: "square square";
-  }
-  .amehegwuh-mobile .top-box .square-group .square {
-    padding: 3em;
-    margin: .2em;
-    border-radius: .8em;
-    background-color: #110117;
-  }
-  .amehegwuh-mobile .top-box .skeleton-title, .amehegwuh-mobile .top-box .skeleton-title2 {
-    padding: .6em;
-    margin: 1em .3em;
-    border-radius: .8em;
-    background-color: #110117;
-  }
-  .amehegwuh-mobile .top-box .skeleton-title2 {
-    width: 60%;
-  }
-  .amehegwuh-mobile .top-box .box-group {
-    display: -ms-grid;
-    display: grid;
-        grid-template-areas: "square";
-  }
-  .amehegwuh-mobile .top-box .box-group .square {
-    padding: 6em;
-    margin: .2em;
-    border-radius: .8em;
-    border: .2em solid white;
-    background-color: #110117;
-  }
-  .amehegwuh-mobile .top-box h1 {
-    position: absolute;
-    top: 20%;
     left: 5%;
-    width: 100%;
-    font-size: 44px;
-    font-weight: bold;
-    color: white;
-    letter-spacing: 2px;
+    top: 3%;
+    width: 15px;
+    height: 15px;
   }
-  .amehegwuh-mobile .top-box h2 {
+  .amehegwuh-mobile .top-box .top-text {
     position: absolute;
-    top: 42%;
-    left: 5%;
-    width: 100%;
+    top: -5.5%;
+    left: 45%;
     font-size: 10px;
     font-weight: normal;
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: .6em;
   }
   .amehegwuh-mobile .top-box .text-cover {
     position: absolute;
@@ -279,7 +230,7 @@
     position: absolute;
     display: block;
     left: 0%;
-    font-size: 8px;
+    font-size: 10px;
     font-weight: lighter;
     letter-spacing: 1px;
     color: white;
@@ -409,20 +360,36 @@
   }
   .amehegwuh-mobile .spiral-vector-front {
     position: absolute;
-    max-width: 100vw;
+    max-width: 100%;
     top: 145%;
     z-index: 999;
   }
   .amehegwuh-mobile .spiral-vector-back {
     position: absolute;
-    max-width: 100vw;
+    max-width: 100%;
     top: 147.5%;
     z-index: 99;
+  }
+  .amehegwuh-mobile .gallery-holder {
+    position: absolute;
+    top: 164.8%;
+    left: 48%;
+    width: 38px;
+    height: 38px;
+    background: #F7F7F7;
+    -webkit-box-shadow: 12px 9px 16px #F2F2F2, -4px 0px 16px #FFFFFF;
+            box-shadow: 12px 9px 16px #F2F2F2, -4px 0px 16px #FFFFFF;
+    border-radius: 50px;
+    z-index: 999;
+  }
+  .amehegwuh-mobile .gallery-holder img {
+    width: 15px;
+    height: 15px;
   }
   .amehegwuh-mobile .profile {
     position: absolute;
     width: 100%;
-    height: 120%;
+    height: 183%;
     top: 175%;
     background: white;
     z-index: 999;
@@ -445,6 +412,178 @@
     -ms-flex-item-align: stretch;
         align-self: stretch;
     letter-spacing: 0.1em;
+  }
+  .amehegwuh-mobile .profile .text-holder .uk-accordion-title {
+    font-size: 12px;
+    font-weight: bold;
+    color: #110117;
+    letter-spacing: 0.1em;
+  }
+  .amehegwuh-mobile .feedback {
+    position: absolute;
+    top: 365%;
+    width: 100%;
+    height: 70%;
+    background: #110117;
+    -webkit-box-shadow: 12px 9px 16px #F2F2F2, -12px -9px 16px #FFFFFF;
+            box-shadow: 12px 9px 16px #F2F2F2, -12px -9px 16px #FFFFFF;
+    z-index: 99;
+  }
+  .amehegwuh-mobile .feedback-note {
+    position: absolute;
+    top: 438%;
+    width: 95%;
+    height: 22%;
+    left: 2.5%;
+    background: linear-gradient(171.62deg, rgba(255, 255, 255, 0.8918) 15.65%, rgba(255, 255, 255, 0.4998) 93.54%);
+    -webkit-box-shadow: 0px 0px 100px rgba(17, 1, 23, 0.1);
+            box-shadow: 0px 0px 100px rgba(17, 1, 23, 0.1);
+    -webkit-backdrop-filter: blur(50px);
+            backdrop-filter: blur(50px);
+    border-radius: 15px;
+  }
+  .amehegwuh-mobile .feedback-note .feedback-text {
+    width: 80%;
+    left: 10%;
+    top: 50%;
+  }
+  .amehegwuh-mobile .feedback-note .feedback-text h2 {
+    top: 20%;
+    line-height: 15px;
+    font-size: 9px;
+    font-weight: bold;
+    color: #110117;
+    opacity: .5;
+    letter-spacing: .1em;
+  }
+  .amehegwuh-mobile .feedback-note .img-block {
+    position: absolute;
+    top: 85%;
+    display: inline-block;
+    left: 85%;
+  }
+  .amehegwuh-mobile .feedback-note .img-block img {
+    width: 14px;
+    height: 14px;
+    margin: 2px;
+  }
+  .amehegwuh-mobile .feedback-note .btn-block {
+    position: absolute;
+    top: 57%;
+    width: 100%;
+    height: 30%;
+  }
+  .amehegwuh-mobile .feedback-note .btn-block a {
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    color: #110117;
+    text-align: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .amehegwuh-mobile .feedback-note .btn-block a p {
+    opacity: .2;
+  }
+  .amehegwuh-mobile .feedback-note .btn-block [class^="btn-"] {
+    display: inline-block;
+    height: 75%;
+    background: #f7f7f7;
+    -webkit-box-shadow: 12px 9px 16px #F2F2F2, -12px -9px 16px #FFFFFF;
+            box-shadow: 12px 9px 16px #F2F2F2, -12px -9px 16px #FFFFFF;
+    border-radius: 40px;
+  }
+  .amehegwuh-mobile .feedback-note .btn-block .btn-1 {
+    position: absolute;
+    width: 45%;
+    left: 17%;
+  }
+  .amehegwuh-mobile .feedback-note .btn-block .btn-2 {
+    position: absolute;
+    width: 20%;
+    right: 17%;
+  }
+  .uk-modal-full {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: white;
+    z-index: 99999;
+  }
+  #modal-dialog {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    border-radius: 0px;
+    background: white;
+  }
+  .uk-modal-close {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    font-size: 9px;
+    outline: hidden;
+    border: 1px solid transparent;
+    color: white;
+    background: transparent;
+  }
+  .modal-feedback-box {
+    position: absolute;
+    height: 35%;
+    width: 90%;
+    border-radius: 10px;
+    background: linear-gradient(171.62deg, rgba(255, 255, 255, 0.8918) 15.65%, rgba(255, 255, 255, 0.4998) 93.54%);
+    -webkit-box-shadow: 15px 15px 100px rgba(17, 1, 23, 0.1);
+            box-shadow: 15px 15px 100px rgba(17, 1, 23, 0.1);
+    -webkit-backdrop-filter: blur(50px);
+            backdrop-filter: blur(50px);
+  }
+  .modal-feedback-box .modal-icon {
+    position: absolute;
+    top: 7%;
+    left: 3%;
+    width: 15px;
+    height: 15px;
+  }
+  .modal-feedback-box .modal-icon img {
+    width: 100%;
+    height: 100%;
+  }
+  .modal-feedback-box .modal-description {
+    position: absolute;
+    top: 8.5%;
+    left: 9.5%;
+    font-size: 10px;
+    font-weight: lighter;
+    letter-spacing: .1em;
+    color: #110117;
+    opacity: .5;
+  }
+  .modal-feedback-box #feedback-area {
+    position: absolute;
+    top: 72%;
+    height: 30%;
+    font-size: 11px;
+    outline: none;
+    border-bottom: 1px solid #0CF6E8;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+  }
+  .modal-feedback-box .send-btn {
+    position: absolute;
+    outline: none;
+    border: 1px solid transparent;
+    background: transparent;
+    top: 87%;
+    right: 12%;
+  }
+  .modal-feedback-box .send-btn img {
+    position: absolute;
+    width: 10px;
+    height: 10px;
   }
   #landscape-page {
     display: none;

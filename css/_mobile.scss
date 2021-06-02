@@ -1,6 +1,7 @@
 $bgcolor : #110117;
 $color: #0CF6E8;
 $smcolor: white;
+$primaryColor: #0EA5C7;
 
 
 @mixin full {
@@ -36,145 +37,81 @@ $smcolor: white;
 	main{display:none;}
 
 
-	
-		 #preload-page{display:none; background: $smcolor; @include full();
-            .preload-box{@include full(); background: linear-gradient(171.62deg, rgba(255, 255, 255, 0.8645) 15.65%, rgba(255, 255, 255, 0.4845) 93.54%); box-shadow: 20px 20px 100px rgba(17, 1, 23, 0.1); backdrop-filter: blur(50px);
-                        img{@include centered(); left:44%; top:44%; width: 150px; height: 150px;}
-                        .menu{position: absolute; top:80%; margin: 25px;
-                                form{margin-left: 10px; }
-                        }
-
-                    }
+        
+        #preload-page{width:100%; height:100%; display:none; background: #110117; align-items: center; justify-content: center; z-index:99999;
+            #logo{position: absolute; width:150px; height:150px; left:50%; top: 50%; transform: translate(-50%, -50%);}
         }
 
+        .amehegwuh-mobile{background: $bgcolor; @include fluid(); display: block;
 
-        .amehegwuh-mobile{ position: absolute; background: transparent; @include fluid();
+            #menubar{position: fixed;  top: 0%; width: 100%; height: 8%; background: linear-gradient(171.62deg, rgba(255, 255, 255, 0.8918) 15.65%, rgba(255, 255, 255, 0.4998) 93.54%);
+                box-shadow: 20px 20px 100px rgba(17, 1, 23, 0.1);
+                backdrop-filter: blur(50px); z-index:9999; display: none; 
+                    img{position: absolute;  left:5%; top:45%; width:15px; height:15px;}
+                    h1{position: absolute; top:-50%; left: 49%;  font-size: 10px; font-weight: bold; color: $bgcolor; letter-spacing: .6em;}
+
+                    
+            }
             
             .top-box{background: $bgcolor; @include fluid(); 
-                    .amehegwuh{position: absolute; z-index:99; @include centered(); top:50%; display:block;}
+                   .amehegwuh{position: absolute; z-index:99; @include centered(); top:50%; display: none;}
 
+
+                   .menu-btn{position: absolute;  left:5%; top:3%; width:15px; height:15px;}
+                   .top-text{position: absolute; top:-5.5%; left:45%; font-size: 10px; font-weight: normal; color: $smcolor; letter-spacing: .6em;}
 
 
                   
-                    .phone {
-                        display: none;
-                        background: white;
-                        padding: .5em;
-                        width: 80%;
-                        top: 80%;
-                        border-radius: 1.5em;
-                        position: relative;
-                        transform: rotateZ(0deg);
-                        box-shadow: -30px 30px 0px rgba(0,0,0,.1);
-                        @include centered();
                     
-                        &:before {
-                            content: " ";
-                            position: absolute;
-                            background-color: #110117;
-                            border-radius: .6em;
-                            padding: .3em;
-                            width: 40%;
-                            top: -5px;
-                            left: 30%;
-                        }
-                    }
-                    
-                    .square-group {
-                        display: grid;
-                        grid-template-areas:
-                            "square square";
-                    
-                        .square {
-                            padding: 3em;
-                            margin: .2em;
-                            border-radius: .8em;
-                            background-color: #110117;
-                        }
-                    }
-                    
-                    .skeleton-title, .skeleton-title2 {
-                        padding: .6em;
-                        margin: 1em .3em;
-                        border-radius: .8em;
-                        background-color:#110117;
-                    }
-                    .skeleton-title2 {
-                        width: 60%;
-                    }
-                    
-                    .box-group {
-                        display: grid;
-                        grid-template-areas:
-                            "square";
-                    
-                            .square {
-                            padding: 6em;
-                            margin: .2em;
-                            border-radius: .8em;
-                            border: .2em solid white;
-                            background-color: #110117;
-                        }
 
+            .text-cover{position: absolute; height: 2em; width: 65%; left:22%; top:54%; overflow: hidden; 
+            .item-1, 
+            .item-2, 
+            .item-3 {
+                position: absolute;
+            display: block;
+            left: 0%;
+            font-size: 10px;
+            font-weight:lighter;
+            letter-spacing: 1px;
+            color:$smcolor;
 
-                        
+                animation-duration: 16s;
+                animation-timing-function: ease-in-out;
+                animation-iteration-count: infinite;
+            }
 
-                       
-                    }
+            .item-1{
+                animation-name: anim-1;
+            }
 
+            .item-2{
+                animation-name: anim-2;
+            }
 
-                    h1{position: absolute; top:20%; left:5%; width: 100%; font-size: 44px; font-weight: bold; color: $smcolor; letter-spacing: 2px; }
-                    h2{position: absolute; top:42%; left:5%; width: 100%; font-size: 10px; font-weight: normal; color: $smcolor; letter-spacing: 1px; }
+            .item-3{
+                animation-name: anim-3;
+            }
 
+            @keyframes anim-1 {
+                0%, 8.3% { top: 100%; opacity: 0; }
+            8.3%,25% { top: 25%; opacity: 1; }
+            33.33%, 100% { top: -110%; opacity: 0; }
+            }
 
-.text-cover{position: absolute; height: 2em; width: 65%; left:22%; top:54%; overflow: hidden; 
- .item-1, 
-.item-2, 
-.item-3 {
-	position: absolute;
-  display: block;
-  left: 0%;
-  font-size: 8px;
-  font-weight:lighter;
-  letter-spacing: 1px;
-  color:$smcolor;
+            @keyframes anim-2 {
+                0%, 33.33% { top: 100%; opacity: 0; }
+            41.63%, 58.29% { top: -45%; opacity: 1; }
+            66.66%, 100% { top: -110%; opacity: 0; }
+            }
 
-	animation-duration: 16s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-}
+            @keyframes anim-3 {
+                0%, 66.66% { top: 100%; opacity: 0; }
+            74.96%, 91.62% { top: -45%; opacity: 1; }
+            100% { top: -110%; opacity: 0; }
+            }
 
-.item-1{
-	animation-name: anim-1;
-}
-
-.item-2{
-	animation-name: anim-2;
-}
-
-.item-3{
-	animation-name: anim-3;
-}
-
-@keyframes anim-1 {
-	0%, 8.3% { top: 100%; opacity: 0; }
-  8.3%,25% { top: 25%; opacity: 1; }
-  33.33%, 100% { top: -110%; opacity: 0; }
-}
-
-@keyframes anim-2 {
-	0%, 33.33% { top: 100%; opacity: 0; }
-  41.63%, 58.29% { top: -45%; opacity: 1; }
-  66.66%, 100% { top: -110%; opacity: 0; }
-}
-
-@keyframes anim-3 {
-	0%, 66.66% { top: 100%; opacity: 0; }
-  74.96%, 91.62% { top: -45%; opacity: 1; }
-  100% { top: -110%; opacity: 0; }
-}
-
-}
+            }
 
                       
                     
@@ -186,21 +123,72 @@ $smcolor: white;
                 img{@include fluid(); max-width: 100vw; }
             }
 
-            .spiral-vector-front{position: absolute; max-width: 100vw; top:145%; z-index: 999;}
-            .spiral-vector-back{position: absolute; max-width: 100vw; top:147.5%; z-index:99 ;}
+            .spiral-vector-front{position: absolute; max-width: 100%; top:145%; z-index: 999; }
+            .spiral-vector-back{position: absolute; max-width: 100%; top:147.5%; z-index:99 ;}
+            .gallery-holder{position: absolute; top:164.8%; left:48%; width: 38px; height: 38px; background: #F7F7F7; box-shadow: 12px 9px 16px #F2F2F2, -4px 0px 16px #FFFFFF; border-radius: 50px; z-index: 999;
+                        img{width: 15px; height: 15px;}
+             }
+           
             
-            .profile{position: absolute; width: 100%; height: 120%; top:175%; background: $smcolor; z-index: 999; overflow: scroll;
+            .profile{position: absolute; width: 100%; height: 183%; top:175%; background: $smcolor; z-index: 999; overflow: scroll;
                 .text-holder{position: absolute; width: 80%; top:0%; left:10%;   
                     p{line-height: 30px; font-size: 12px; color: #110117; opacity: .5;  display: flex; align-self: stretch; letter-spacing: 0.1em;}
+                
+                    .uk-accordion-title{font-size: 12px; font-weight:bold; color: $bgcolor; letter-spacing:0.1em;
+                        
+                }
                 }
             }
-        
-        
-        }
-		 
-		
 
-	
+
+            .feedback{position: absolute; top:365%; width:100%; height: 70%; background: #110117; box-shadow: 12px 9px 16px #F2F2F2, -12px -9px 16px #FFFFFF; z-index: 99;}
+        
+            .feedback-note{position: absolute; top:438%; width:95%; height:22%; left:2.5%;  background: linear-gradient(171.62deg, rgba(255, 255, 255, 0.8918) 15.65%, rgba(255, 255, 255, 0.4998) 93.54%); box-shadow: 0px 0px 100px rgba(17, 1, 23, 0.1); backdrop-filter: blur(50px); border-radius: 15px;
+                .feedback-text{width: 80%; left: 10%; top:50%; 
+                                h2{top:20%; line-height: 15px; font-size: 9px; font-weight: bold; color: #110117; opacity: .5;  letter-spacing: .1em;}
+                }
+
+                .img-block{position:absolute; top:85%; display: inline-block; left:85% ;
+                    img{width: 14px; height: 14px; margin: 2px;}
+                }
+
+                .btn-block{position: absolute; top:57%; width: 100%; height: 30%;
+                    a{text-decoration: none; font-size: 11px; font-weight: bold; color: $bgcolor; text-align: center; align-content: center; p{opacity: .2;} }
+                    [class^="btn-"] {display:inline-block; height: 75%;   background: #f7f7f7; box-shadow: 12px 9px 16px #F2F2F2, -12px -9px 16px #FFFFFF; border-radius: 40px;
+                    
+                    }
+
+                    .btn-1{position:absolute; width: 45%; left:17%;
+                      
+                    }
+                    .btn-2{position:absolute;  width: 20%; right:17%;}
+                
+                }
+            }
+        }
+
+
+   
+        .uk-modal-full{position: fixed; height: 100%; width:100%; background: white; z-index:99999;}
+        #modal-dialog{position:fixed; height:100%; width:100%; left:0%; top:0%; border-radius:0px; background:white;}
+        .uk-modal-close {position:absolute; top:1%; right:1%; font-size: 9px; outline: hidden; border: 1px solid transparent; color:white; background: transparent;}
+   
+        .modal-feedback-box{position:absolute; height: 35%; width:90%; border-radius: 10px; background: linear-gradient(171.62deg, rgba(255, 255, 255, 0.8918) 15.65%, rgba(255, 255, 255, 0.4998) 93.54%); box-shadow: 15px 15px 100px rgba(17, 1, 23, 0.1);  backdrop-filter: blur(50px);
+            .modal-icon{position:absolute; top:7%; left:3%; width: 15px; height: 15px;
+                img{width:100%; height:100%;}
+            }
+            .modal-description{position:absolute; top:8.5%; left:9.5%; font-size: 10px; font-weight: lighter; letter-spacing: .1em; color: $bgcolor; opacity: .5;}
+        
+            #feedback-area{position: absolute; top:72%; height:30%; font-size: 11px; outline: none;  border-bottom:1px solid $color; border-top:1px solid transparent; border-left:1px solid transparent; border-right:1px solid transparent;}
+           
+
+            .send-btn{position:absolute; outline: none; border:1px solid transparent; background: transparent; top:87%;  right:12%; 
+                img{position: absolute; width:10px; height: 10px;}
+            }
+        }
+  
+                
+
 	#landscape-page{display: none;}
 	
 	
@@ -208,7 +196,9 @@ $smcolor: white;
 	
 	
 	
-	}
+}
+
+
 
 
 @media screen and  (min-width: 280px) and (max-width: 319px) and (orientation: portrait){
